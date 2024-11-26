@@ -202,7 +202,7 @@ jobs:
         with:
           token: "" # disable issue creation
           rules_file_name: "zap-rules.tsv"
-          docker_name: "owasp/zap2docker-stable"
+          docker_name: "zaproxy/zap-archives/zap2docker-stable:2.14.0"
           target: "${{ matrix.sites.url }}"
           cmd_options: "-a"
           allow_issue_writing: false
