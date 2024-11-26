@@ -507,7 +507,7 @@
               "ip"           : "www.yvetot-normandie.fr/83.166.138.103",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1732628119"
+              "finding"      : "1732629402"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "www.yvetot-normandie.fr/83.166.138.103",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "75"
+              "finding"      : "110"
           }
 ]
