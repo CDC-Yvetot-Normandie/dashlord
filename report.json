@@ -3254,15 +3254,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie.fr",
-        "size": 830.207,
-        "nodes": 641,
-        "requests": 42,
-        "grade": "C",
-        "score": 60,
-        "ges": 1.8,
-        "water": 2.7,
+        "size": 9503.468,
+        "nodes": 678,
+        "requests": 128,
+        "grade": "E",
+        "score": 32,
+        "ges": 2.36,
+        "water": 3.54,
         "ecoindex_version": "5.4.2",
-        "date": "2024-11-26 13:52:11.754014",
+        "date": "2024-11-26 14:56:21.696346",
         "page_type": null
       }
     ],
@@ -3289,8 +3289,52 @@
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
       "declaration-a11y": "F",
-      "ecoindexGrade": "C",
+      "ecoindexGrade": "E",
       "dsfrGrade": "F"
+    }
+  },
+  {
+    "404": null,
+    "url": "https://www.yvetot-normandie-tourisme.fr",
+    "http": null,
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": null,
+    "thirdparties": null,
+    "wappalyzer": null,
+    "zap": null,
+    "nuclei": [],
+    "lhr": null,
+    "screenshot": false,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": null,
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.yvetot-normandie-tourisme.fr",
+        "size": 22439.798,
+        "nodes": 907,
+        "requests": 178,
+        "grade": "F",
+        "score": 21,
+        "ges": 2.58,
+        "water": 3.87,
+        "ecoindex_version": "5.4.2",
+        "date": "2024-11-26 14:56:35.143432",
+        "page_type": "website"
+      }
+    ],
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {
+      "ecoindexGrade": "F"
     }
   }
 ]
