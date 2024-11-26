@@ -1,6 +1,6 @@
 title: DashLord example
 description: Bonnes pratiques techniques
-entity: Votre entité
+entity: Yvetot Normandie
 footer: Powered by SocialGouv
 marianne: false
 tools:
@@ -29,9 +29,4 @@ updownioRecipients:
   - email:123456
   - email:789987
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-    docker:
-      - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+  - url: https://www.yvetot-normandie.fr
