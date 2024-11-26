@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.yvetot-normandie-tourisme.fr",
+        "size": 22439.798,
+        "nodes": 907,
+        "requests": 178,
+        "grade": "F",
+        "score": 21.0,
+        "ges": 2.58,
+        "water": 3.87,
+        "ecoindex_version": "5.4.2",
+        "date": "2024-11-26 14:56:35.143432",
+        "page_type": "website"
+    }
+]
