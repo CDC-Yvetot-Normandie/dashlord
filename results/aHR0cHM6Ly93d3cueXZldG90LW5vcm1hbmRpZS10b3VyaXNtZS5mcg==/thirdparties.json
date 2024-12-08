@@ -97,16 +97,8 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=e44fec6bb45aafa0490c481509db8d0d",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "google",
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-JWVHCBJL6G&gtm=45je4bk0v9121321245za200&_p=1733018646561&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102077855~102081485&cid=2120453204.1733018647&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1733018646&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie-tourisme.fr%2F&dt=OT%20Yvetot%20-%20Site%20officiel%20de%20l%27Office%20de%20Tourisme%20de%20Yvetot&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1378",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-JWVHCBJL6G&gtm=45je4c40v9121321245za200&_p=1733623062441&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102081485&cid=1413734304.1733623063&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1733623062&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie-tourisme.fr%2F&dt=OT%20Yvetot%20-%20Site%20officiel%20de%20l%27Office%20de%20Tourisme%20de%20Yvetot&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1778",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -114,7 +106,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-JWVHCBJL6G&cid=2120453204.1733018647&gtm=45je4bk0v9121321245za200&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101925629~102067555~102067808~102077855~102081485",
+      "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-JWVHCBJL6G&cid=1413734304.1733623063&gtm=45je4c40v9121321245za200&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101925629~102067555~102067808~102081485",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -122,7 +114,15 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/v5.0/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfaf6a4dd6a041439f%26domain%3Dwww.yvetot-normandie-tourisme.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie-tourisme.fr%252Fff3903ba3af3a6c41%26relation%3Dparent.parent&container_width=760&height=400&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fyntourisme%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline&width=",
+      "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=d3f2535d115b73929fc9dad5614d8621",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/v5.0/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df45c84b9000776fd4%26domain%3Dwww.yvetot-normandie-tourisme.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie-tourisme.fr%252Ff600df7ea1599902a%26relation%3Dparent.parent&container_width=760&height=400&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fyntourisme%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline&width=",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -132,25 +132,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.2120453204.1733018647",
+      "value": "GA1.1.1413734304.1733623063",
       "domain": ".yvetot-normandie-tourisme.fr",
       "path": "/",
-      "expires": 1796090646,
+      "expires": 1796695062,
       "size": 30,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_ga_JWVHCBJL6G",
-      "value": "GS1.1.1733018646.1.0.1733018646.60.0.0",
-      "domain": ".yvetot-normandie-tourisme.fr",
-      "path": "/",
-      "expires": 1796090646,
-      "size": 52,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -163,8 +149,22 @@
       "value": "deny",
       "domain": "www.yvetot-normandie-tourisme.fr",
       "path": "/",
-      "expires": 1733126646,
+      "expires": 1733731062,
       "size": 34,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_ga_JWVHCBJL6G",
+      "value": "GS1.1.1733623062.1.0.1733623062.60.0.0",
+      "domain": ".yvetot-normandie-tourisme.fr",
+      "path": "/",
+      "expires": 1796695062,
+      "size": 52,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -177,7 +177,7 @@
     "cache-control": "max-age=3, must-revalidate",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 01 Dec 2024 02:04:05 GMT",
+    "date": "Sun, 08 Dec 2024 01:57:41 GMT",
     "server": "Apache",
     "strict-transport-security": "max-age=16000000",
     "vary": "Accept-Encoding,Cookie"
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.234",
+      "ip": "142.251.46.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -381,7 +381,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.0.168",
+      "ip": "142.250.191.40",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -435,7 +435,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.227",
+      "ip": "172.217.164.99",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -489,7 +489,7 @@
     },
     {
       "hostname": "analytics.google.com",
-      "ip": "216.239.34.181",
+      "ip": "216.239.36.181",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -521,8 +521,8 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
+          "latitude": 34.046,
+          "longitude": -118.2297,
           "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
@@ -559,7 +559,7 @@
     },
     {
       "hostname": "stats.g.doubleclick.net",
-      "ip": "142.251.166.155",
+      "ip": "142.251.2.157",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -613,19 +613,19 @@
     },
     {
       "hostname": "www.facebook.com",
-      "ip": "57.144.174.1",
+      "ip": "157.240.22.35",
       "geoip": {
         "city": {
-          "geoname_id": 4887398,
+          "geoname_id": 5393015,
           "names": {
-            "de": "Chicago",
-            "en": "Chicago",
-            "es": "Chicago",
-            "fr": "Chicago",
-            "ja": "シカゴ",
-            "pt-BR": "Chicago",
-            "ru": "Чикаго",
-            "zh-CN": "芝加哥"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -658,42 +658,41 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 41.8874,
-          "longitude": -87.6318,
-          "metro_code": 602,
-          "time_zone": "America/Chicago"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "60602"
+          "code": "95052"
         },
         "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         },
         "subdivisions": [
           {
-            "geoname_id": 4896861,
-            "iso_code": "IL",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "de": "Illinois",
-              "en": "Illinois",
-              "es": "Illinois",
-              "fr": "Illinois",
-              "ja": "イリノイ州",
-              "pt-BR": "Ilinóis",
-              "ru": "Иллинойс",
-              "zh-CN": "伊利诺伊州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
