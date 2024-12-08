@@ -355,7 +355,7 @@
         "ip": "www.yvetot-normandie.fr/83.166.138.103",
         "port": "443",
         "severity": "OK",
-        "finding": "77 >= 30 days"
+        "finding": "70 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -516,7 +516,7 @@
         "ip": "www.yvetot-normandie.fr/83.166.138.103",
         "port": "443",
         "severity": "INFO",
-        "finding": "1733018994"
+        "finding": "1733623387"
       },
       {
         "id": "HSTS_time",
@@ -1107,7 +1107,7 @@
         "ip": "www.yvetot-normandie.fr/83.166.138.103",
         "port": "443",
         "severity": "INFO",
-        "finding": "120"
+        "finding": "110"
       }
     ],
     "thirdparties": {
@@ -1201,22 +1201,6 @@
           }
         },
         {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
           "type": "facebook",
           "url": "https://connect.facebook.net/fr_FR/sdk.js",
           "details": {
@@ -1249,72 +1233,8 @@
           }
         },
         {
-          "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1VF00J66P9&gtm=45je4bk0v9132223279za200&_p=1733018662536&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102077855~102081485&cid=1567707456.1733018663&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1733018662&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie.fr%2F&dt=CDC%20Yvetot-Normandie&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3412",
-          "details": {
-            "id": "google analytics",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/s/player/b46bb280/www-player.css",
-          "details": {
-            "id": "youtube",
-            "message": "Dont embed youtube scripts, use peertube"
-          }
-        },
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/embed.js",
-          "details": {
-            "id": "youtube",
-            "message": "Dont embed youtube scripts, use peertube"
-          }
-        },
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/s/player/b46bb280/www-embed-player.vflset/www-embed-player.js",
-          "details": {
-            "id": "youtube",
-            "message": "Dont embed youtube scripts, use peertube"
-          }
-        },
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js",
-          "details": {
-            "id": "youtube",
-            "message": "Dont embed youtube scripts, use peertube"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://maps.google.com/maps-api-v3/api/js/59/1/intl/fr_ALL/common.js",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://maps.google.com/maps-api-v3/api/js/59/1/intl/fr_ALL/util.js",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://maps.google.com/maps-api-v3/api/js/59/1/intl/fr_ALL/geocoder.js",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
+          "url": "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2",
           "details": {
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -1322,10 +1242,42 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
+          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
           "details": {
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/s/player/62ccfae7/www-player.css",
+          "details": {
+            "id": "youtube",
+            "message": "Dont embed youtube scripts, use peertube"
+          }
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/s/player/62ccfae7/player_ias.vflset/en_US/embed.js",
+          "details": {
+            "id": "youtube",
+            "message": "Dont embed youtube scripts, use peertube"
+          }
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/s/player/62ccfae7/www-embed-player.vflset/www-embed-player.js",
+          "details": {
+            "id": "youtube",
+            "message": "Dont embed youtube scripts, use peertube"
+          }
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/s/player/62ccfae7/player_ias.vflset/en_US/base.js",
+          "details": {
+            "id": "youtube",
+            "message": "Dont embed youtube scripts, use peertube"
           }
         },
         {
@@ -1346,10 +1298,58 @@
         },
         {
           "type": "facebook",
-          "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=e44fec6bb45aafa0490c481509db8d0d",
+          "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=cf98f7ceeb65eff91bd48ce473f205c1",
           "details": {
             "id": "facebook",
             "message": "Dont embed facebook scripts, use your own tweet embed"
+          }
+        },
+        {
+          "type": "google analytics",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1VF00J66P9&gtm=45je4c40v9132223279za200&_p=1733623060371&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102081485&cid=573589327.1733623060&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1733623060&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie.fr%2F&dt=CDC%20Yvetot-Normandie&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2946",
+          "details": {
+            "id": "google analytics",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google",
+          "url": "https://maps.google.com/maps-api-v3/api/js/59/2/intl/fr_ALL/common.js",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google",
+          "url": "https://maps.google.com/maps-api-v3/api/js/59/2/intl/fr_ALL/util.js",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google",
+          "url": "https://maps.google.com/maps-api-v3/api/js/59/2/intl/fr_ALL/geocoder.js",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
           }
         },
         {
@@ -1386,7 +1386,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/remote.js",
+          "url": "https://www.youtube.com/s/player/62ccfae7/player_ias.vflset/en_US/remote.js",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1394,7 +1394,7 @@
         },
         {
           "type": "google",
-          "url": "https://www.google.com/js/th/ol2Pwhg52TvQQNILWNhGlE6oofe6M6saszf4SS0CR3o.js",
+          "url": "https://www.google.com/js/th/8GAA_EAhaUfRATUmZGQU1-WbRB8oGFHNhZKaSHdESYU.js",
           "details": {
             "id": "google",
             "message": "Use hosted Matomo instance"
@@ -1434,23 +1434,23 @@
         },
         {
           "type": "google",
+          "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google",
+          "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google",
           "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
           "details": {
             "id": "google",
             "message": "Use hosted Matomo instance"
@@ -1482,7 +1482,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/generate_204?3ttH8A",
+          "url": "https://www.youtube.com/generate_204?JnwgHw",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1498,7 +1498,7 @@
         },
         {
           "type": "facebook",
-          "url": "https://www.facebook.com/v3.1/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfcd7cc0311af2d107%26domain%3Dwww.yvetot-normandie.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie.fr%252Ff6a684354a713ce74%26relation%3Dparent.parent&container_width=294&height=250&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2FCCRY-Communaut%25C3%25A9-de-Communes-de-la-R%25C3%25A9gion-dYvetot-797707000297351%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline",
+          "url": "https://www.facebook.com/v3.1/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df91e319aed47ff1a3%26domain%3Dwww.yvetot-normandie.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie.fr%252Ffa2ae8f537dd2b3f3%26relation%3Dparent.parent&container_width=294&height=250&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2FCCRY-Communaut%25C3%25A9-de-Communes-de-la-R%25C3%25A9gion-dYvetot-797707000297351%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline",
           "details": {
             "id": "facebook",
             "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -1519,7 +1519,7 @@
           "value": "deny",
           "domain": "www.yvetot-normandie.fr",
           "path": "/",
-          "expires": 1733126662,
+          "expires": 1733731060,
           "size": 34,
           "httpOnly": false,
           "secure": false,
@@ -1530,11 +1530,11 @@
         },
         {
           "name": "_ga",
-          "value": "GA1.1.1567707456.1733018663",
+          "value": "GA1.1.573589327.1733623060",
           "domain": ".yvetot-normandie.fr",
           "path": "/",
-          "expires": 1796090662,
-          "size": 30,
+          "expires": 1796695060,
+          "size": 29,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -1544,10 +1544,10 @@
         },
         {
           "name": "_ga_1VF00J66P9",
-          "value": "GS1.1.1733018662.1.0.1733018662.0.0.0",
+          "value": "GS1.1.1733623060.1.0.1733623060.0.0.0",
           "domain": ".yvetot-normandie.fr",
           "path": "/",
-          "expires": 1796090662,
+          "expires": 1796695060,
           "size": 51,
           "httpOnly": false,
           "secure": false,
@@ -1558,7 +1558,7 @@
         },
         {
           "name": "PHPSESSID",
-          "value": "ec3ae6bf0eab8f9ccaff76cf46fcaa8b",
+          "value": "88dfbaff0b6bed1827f456a225d967c0",
           "domain": "www.yvetot-normandie.fr",
           "path": "/",
           "expires": -1,
@@ -1575,12 +1575,12 @@
         "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 01 Dec 2024 02:04:19 GMT",
+        "date": "Sun, 08 Dec 2024 01:57:37 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "link": "<https://www.yvetot-normandie.fr/wp-json/>; rel=\"https://api.w.org/\"",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "PHPSESSID=ec3ae6bf0eab8f9ccaff76cf46fcaa8b; path=/",
+        "set-cookie": "PHPSESSID=88dfbaff0b6bed1827f456a225d967c0; path=/",
         "strict-transport-security": "max-age=16000000",
         "vary": "Accept-Encoding"
       },
@@ -1641,7 +1641,7 @@
         },
         {
           "hostname": "maps.google.com",
-          "ip": "142.250.68.46",
+          "ip": "142.250.191.110",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1695,7 +1695,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.176.10",
+          "ip": "172.217.4.74",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1749,7 +1749,7 @@
         },
         {
           "hostname": "maps.googleapis.com",
-          "ip": "142.250.176.10",
+          "ip": "142.250.190.74",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1803,7 +1803,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.250.217.136",
+          "ip": "142.250.191.168",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1857,7 +1857,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.250.72.142",
+          "ip": "142.250.191.238",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1911,7 +1911,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.72.131",
+          "ip": "142.250.191.227",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1965,19 +1965,19 @@
         },
         {
           "hostname": "connect.facebook.net",
-          "ip": "31.13.66.19",
+          "ip": "57.144.174.128",
           "geoip": {
             "city": {
-              "geoname_id": 4744870,
+              "geoname_id": 4887398,
               "names": {
-                "de": "Ashburn",
-                "en": "Ashburn",
-                "es": "Ashburn",
-                "fr": "Ashburn",
-                "ja": "アッシュバーン",
-                "pt-BR": "Ashburn",
-                "ru": "Ашберн",
-                "zh-CN": "阿什本"
+                "de": "Chicago",
+                "en": "Chicago",
+                "es": "Chicago",
+                "fr": "Chicago",
+                "ja": "シカゴ",
+                "pt-BR": "Chicago",
+                "ru": "Чикаго",
+                "zh-CN": "芝加哥"
               }
             },
             "continent": {
@@ -2010,13 +2010,13 @@
             },
             "location": {
               "accuracy_radius": 20,
-              "latitude": 39.0469,
-              "longitude": -77.4903,
-              "metro_code": 511,
-              "time_zone": "America/New_York"
+              "latitude": 41.8874,
+              "longitude": -87.6318,
+              "metro_code": 602,
+              "time_zone": "America/Chicago"
             },
             "postal": {
-              "code": "20149"
+              "code": "60602"
             },
             "registered_country": {
               "geoname_id": 2963597,
@@ -2035,17 +2035,17 @@
             },
             "subdivisions": [
               {
-                "geoname_id": 6254928,
-                "iso_code": "VA",
+                "geoname_id": 4896861,
+                "iso_code": "IL",
                 "names": {
-                  "de": "Virginia",
-                  "en": "Virginia",
-                  "es": "Virginia",
-                  "fr": "Virginie",
-                  "ja": "バージニア州",
-                  "pt-BR": "Virgínia",
-                  "ru": "Вирджиния",
-                  "zh-CN": "弗吉尼亚州"
+                  "de": "Illinois",
+                  "en": "Illinois",
+                  "es": "Illinois",
+                  "fr": "Illinois",
+                  "ja": "イリノイ州",
+                  "pt-BR": "Ilinóis",
+                  "ru": "Иллинойс",
+                  "zh-CN": "伊利诺伊州"
                 }
               }
             ]
@@ -2053,7 +2053,7 @@
         },
         {
           "hostname": "www.youtube.com",
-          "ip": "142.250.72.174",
+          "ip": "172.217.4.46",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2107,7 +2107,7 @@
         },
         {
           "hostname": "googleads.g.doubleclick.net",
-          "ip": "142.250.176.2",
+          "ip": "142.250.190.130",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2161,7 +2161,7 @@
         },
         {
           "hostname": "static.doubleclick.net",
-          "ip": "172.217.12.134",
+          "ip": "142.250.190.6",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2215,7 +2215,7 @@
         },
         {
           "hostname": "jnn-pa.googleapis.com",
-          "ip": "142.250.217.138",
+          "ip": "142.250.190.74",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2269,7 +2269,7 @@
         },
         {
           "hostname": "www.google.com",
-          "ip": "142.250.68.4",
+          "ip": "142.250.191.100",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2323,7 +2323,7 @@
         },
         {
           "hostname": "i.ytimg.com",
-          "ip": "142.250.188.246",
+          "ip": "142.250.190.86",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2377,7 +2377,7 @@
         },
         {
           "hostname": "yt3.ggpht.com",
-          "ip": "172.217.14.65",
+          "ip": "142.250.190.1",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2431,7 +2431,7 @@
         },
         {
           "hostname": "play.google.com",
-          "ip": "142.250.217.142",
+          "ip": "142.250.190.110",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2485,7 +2485,7 @@
         },
         {
           "hostname": "www.gstatic.com",
-          "ip": "172.217.14.67",
+          "ip": "142.250.190.99",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2539,19 +2539,19 @@
         },
         {
           "hostname": "www.facebook.com",
-          "ip": "31.13.66.35",
+          "ip": "157.240.254.35",
           "geoip": {
             "city": {
-              "geoname_id": 4744870,
+              "geoname_id": 4887398,
               "names": {
-                "de": "Ashburn",
-                "en": "Ashburn",
-                "es": "Ashburn",
-                "fr": "Ashburn",
-                "ja": "アッシュバーン",
-                "pt-BR": "Ashburn",
-                "ru": "Ашберн",
-                "zh-CN": "阿什本"
+                "de": "Chicago",
+                "en": "Chicago",
+                "es": "Chicago",
+                "fr": "Chicago",
+                "ja": "シカゴ",
+                "pt-BR": "Chicago",
+                "ru": "Чикаго",
+                "zh-CN": "芝加哥"
               }
             },
             "continent": {
@@ -2584,42 +2584,41 @@
             },
             "location": {
               "accuracy_radius": 20,
-              "latitude": 39.0469,
-              "longitude": -77.4903,
-              "metro_code": 511,
-              "time_zone": "America/New_York"
+              "latitude": 41.8874,
+              "longitude": -87.6318,
+              "metro_code": 602,
+              "time_zone": "America/Chicago"
             },
             "postal": {
-              "code": "20149"
+              "code": "60602"
             },
             "registered_country": {
-              "geoname_id": 2963597,
-              "is_in_european_union": true,
-              "iso_code": "IE",
+              "geoname_id": 6252001,
+              "iso_code": "US",
               "names": {
-                "de": "Irland",
-                "en": "Ireland",
-                "es": "Irlanda",
-                "fr": "Irlande",
-                "ja": "アイルランド",
-                "pt-BR": "Irlanda",
-                "ru": "Ирландия",
-                "zh-CN": "爱尔兰"
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
               }
             },
             "subdivisions": [
               {
-                "geoname_id": 6254928,
-                "iso_code": "VA",
+                "geoname_id": 4896861,
+                "iso_code": "IL",
                 "names": {
-                  "de": "Virginia",
-                  "en": "Virginia",
-                  "es": "Virginia",
-                  "fr": "Virginie",
-                  "ja": "バージニア州",
-                  "pt-BR": "Virgínia",
-                  "ru": "Вирджиния",
-                  "zh-CN": "弗吉尼亚州"
+                  "de": "Illinois",
+                  "en": "Illinois",
+                  "es": "Illinois",
+                  "fr": "Illinois",
+                  "ja": "イリノイ州",
+                  "pt-BR": "Ilinóis",
+                  "ru": "Иллинойс",
+                  "zh-CN": "伊利诺伊州"
                 }
               }
             ]
@@ -3093,7 +3092,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie.fr/",
         "finalUrl": "https://www.yvetot-normandie.fr/",
-        "fetchTime": "2024-12-01T02:08:29.173Z",
+        "fetchTime": "2024-12-08T02:01:47.705Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -3104,7 +3103,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.31
+            "score": 0.26
           },
           "accessibility": {
             "title": "Accessibility",
@@ -3115,7 +3114,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.91
+            "score": 0.89
           },
           "best-practices": {
             "title": "Best Practices",
@@ -3156,53 +3155,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15359,
+            "numericValue": 16123,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5520,
-                  "firstMeaningfulPaint": 5520,
-                  "largestContentfulPaint": 8068,
-                  "interactive": 15359,
-                  "speedIndex": 12660,
-                  "totalBlockingTime": 277,
-                  "maxPotentialFID": 150,
-                  "cumulativeLayoutShift": 0.3443284606933594,
-                  "cumulativeLayoutShiftMainFrame": 0.3443284606933594,
-                  "totalCumulativeLayoutShift": 0.3443284606933594,
+                  "firstContentfulPaint": 5251,
+                  "firstMeaningfulPaint": 6146,
+                  "largestContentfulPaint": 8019,
+                  "interactive": 16123,
+                  "speedIndex": 12323,
+                  "totalBlockingTime": 313,
+                  "maxPotentialFID": 162,
+                  "cumulativeLayoutShift": 0.7092384084065756,
+                  "cumulativeLayoutShiftMainFrame": 0.7092384084065756,
+                  "totalCumulativeLayoutShift": 0.7092384084065756,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 381545950,
+                  "observedTimeOriginTs": 437437540,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 381545950,
-                  "observedFirstPaint": 2993,
-                  "observedFirstPaintTs": 384539395,
-                  "observedFirstContentfulPaint": 2993,
-                  "observedFirstContentfulPaintTs": 384539395,
-                  "observedFirstContentfulPaintAllFrames": 2993,
-                  "observedFirstContentfulPaintAllFramesTs": 384539395,
-                  "observedFirstMeaningfulPaint": 2993,
-                  "observedFirstMeaningfulPaintTs": 384539395,
-                  "observedLargestContentfulPaint": 3274,
-                  "observedLargestContentfulPaintTs": 384819838,
-                  "observedLargestContentfulPaintAllFrames": 3274,
-                  "observedLargestContentfulPaintAllFramesTs": 384819838,
-                  "observedTraceEnd": 7197,
-                  "observedTraceEndTs": 388743163,
-                  "observedLoad": 4254,
-                  "observedLoadTs": 385800058,
-                  "observedDomContentLoaded": 3888,
-                  "observedDomContentLoadedTs": 385434334,
-                  "observedCumulativeLayoutShift": 0.3443284606933594,
-                  "observedCumulativeLayoutShiftMainFrame": 0.3443284606933594,
-                  "observedTotalCumulativeLayoutShift": 0.3443284606933594,
-                  "observedFirstVisualChange": 3005,
-                  "observedFirstVisualChangeTs": 384550950,
-                  "observedLastVisualChange": 5305,
-                  "observedLastVisualChangeTs": 386850950,
-                  "observedSpeedIndex": 3995,
-                  "observedSpeedIndexTs": 385540744
+                  "observedNavigationStartTs": 437437540,
+                  "observedFirstPaint": 2653,
+                  "observedFirstPaintTs": 440090203,
+                  "observedFirstContentfulPaint": 2653,
+                  "observedFirstContentfulPaintTs": 440090203,
+                  "observedFirstContentfulPaintAllFrames": 2653,
+                  "observedFirstContentfulPaintAllFramesTs": 440090203,
+                  "observedFirstMeaningfulPaint": 2686,
+                  "observedFirstMeaningfulPaintTs": 440123901,
+                  "observedLargestContentfulPaint": 2686,
+                  "observedLargestContentfulPaintTs": 440123901,
+                  "observedLargestContentfulPaintAllFrames": 2686,
+                  "observedLargestContentfulPaintAllFramesTs": 440123901,
+                  "observedTraceEnd": 6200,
+                  "observedTraceEndTs": 443637625,
+                  "observedLoad": 3337,
+                  "observedLoadTs": 440774571,
+                  "observedDomContentLoaded": 2900,
+                  "observedDomContentLoadedTs": 440337111,
+                  "observedCumulativeLayoutShift": 0.7092384084065756,
+                  "observedCumulativeLayoutShiftMainFrame": 0.7092384084065756,
+                  "observedTotalCumulativeLayoutShift": 0.7092384084065756,
+                  "observedFirstVisualChange": 2661,
+                  "observedFirstVisualChangeTs": 440098540,
+                  "observedLastVisualChange": 4394,
+                  "observedLastVisualChangeTs": 441831540,
+                  "observedSpeedIndex": 3388,
+                  "observedSpeedIndexTs": 440825200
                 },
                 {
                   "lcpInvalidated": false
@@ -3220,23 +3219,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 160,
+                  "numRequests": 159,
                   "numScripts": 56,
                   "numStylesheets": 41,
                   "numFonts": 7,
-                  "numTasks": 2005,
-                  "numTasksOver10ms": 14,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 1,
+                  "numTasks": 1757,
+                  "numTasksOver10ms": 15,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 65956630.630022705,
-                  "maxRtt": 154.152,
-                  "maxServerLatency": 723.657,
-                  "totalByteWeight": 7500598,
-                  "totalTaskTime": 597.8529999999978,
-                  "mainDocumentTransferSize": 52316
+                  "throughput": 85889224.35275698,
+                  "maxRtt": 112.33800000000001,
+                  "maxServerLatency": 142.2,
+                  "totalByteWeight": 7496650,
+                  "totalTaskTime": 622.8819999999972,
+                  "mainDocumentTransferSize": 52273
                 }
               ]
             }
@@ -3258,7 +3257,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie.fr",
-        "size": 9504.455,
+        "size": 9507.95,
         "nodes": 678,
         "requests": 128,
         "grade": "E",
@@ -3266,7 +3265,7 @@
         "ges": 2.36,
         "water": 3.54,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-01 02:05:31.959619",
+        "date": "2024-12-08 01:58:45.172831",
         "page_type": null
       }
     ],
@@ -3282,9 +3281,9 @@
       "cookiesCount": 4,
       "trackersGrade": "F",
       "trackersCount": 50,
-      "lighthouse_performance": 0.31,
+      "lighthouse_performance": 0.26,
       "lighthouse_performanceGrade": "E",
-      "lighthouse_accessibility": 0.91,
+      "lighthouse_accessibility": 0.89,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.75,
       "lighthouse_best-practicesGrade": "B",
@@ -3681,7 +3680,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "OK",
-        "finding": "61 >= 30 days"
+        "finding": "54 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3835,14 +3834,14 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "1733018948"
+        "finding": "1733623403"
       },
       {
         "id": "HSTS_time",
@@ -4412,7 +4411,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "99"
+        "finding": "114"
       }
     ],
     "thirdparties": {
@@ -4514,16 +4513,8 @@
           }
         },
         {
-          "type": "facebook",
-          "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=e44fec6bb45aafa0490c481509db8d0d",
-          "details": {
-            "id": "facebook",
-            "message": "Dont embed facebook scripts, use your own tweet embed"
-          }
-        },
-        {
           "type": "google",
-          "url": "https://analytics.google.com/g/collect?v=2&tid=G-JWVHCBJL6G&gtm=45je4bk0v9121321245za200&_p=1733018646561&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102077855~102081485&cid=2120453204.1733018647&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1733018646&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie-tourisme.fr%2F&dt=OT%20Yvetot%20-%20Site%20officiel%20de%20l%27Office%20de%20Tourisme%20de%20Yvetot&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1378",
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-JWVHCBJL6G&gtm=45je4c40v9121321245za200&_p=1733623062441&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102081485&cid=1413734304.1733623063&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1733623062&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie-tourisme.fr%2F&dt=OT%20Yvetot%20-%20Site%20officiel%20de%20l%27Office%20de%20Tourisme%20de%20Yvetot&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1778",
           "details": {
             "id": "google",
             "message": "Use hosted Matomo instance"
@@ -4531,7 +4522,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-JWVHCBJL6G&cid=2120453204.1733018647&gtm=45je4bk0v9121321245za200&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101925629~102067555~102067808~102077855~102081485",
+          "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-JWVHCBJL6G&cid=1413734304.1733623063&gtm=45je4c40v9121321245za200&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101925629~102067555~102067808~102081485",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -4539,7 +4530,15 @@
         },
         {
           "type": "facebook",
-          "url": "https://www.facebook.com/v5.0/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfaf6a4dd6a041439f%26domain%3Dwww.yvetot-normandie-tourisme.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie-tourisme.fr%252Fff3903ba3af3a6c41%26relation%3Dparent.parent&container_width=760&height=400&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fyntourisme%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline&width=",
+          "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=d3f2535d115b73929fc9dad5614d8621",
+          "details": {
+            "id": "facebook",
+            "message": "Dont embed facebook scripts, use your own tweet embed"
+          }
+        },
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/v5.0/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df45c84b9000776fd4%26domain%3Dwww.yvetot-normandie-tourisme.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie-tourisme.fr%252Ff600df7ea1599902a%26relation%3Dparent.parent&container_width=760&height=400&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fyntourisme%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline&width=",
           "details": {
             "id": "facebook",
             "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -4549,25 +4548,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.2120453204.1733018647",
+          "value": "GA1.1.1413734304.1733623063",
           "domain": ".yvetot-normandie-tourisme.fr",
           "path": "/",
-          "expires": 1796090646,
+          "expires": 1796695062,
           "size": 30,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
-          "name": "_ga_JWVHCBJL6G",
-          "value": "GS1.1.1733018646.1.0.1733018646.60.0.0",
-          "domain": ".yvetot-normandie-tourisme.fr",
-          "path": "/",
-          "expires": 1796090646,
-          "size": 52,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -4580,8 +4565,22 @@
           "value": "deny",
           "domain": "www.yvetot-normandie-tourisme.fr",
           "path": "/",
-          "expires": 1733126646,
+          "expires": 1733731062,
           "size": 34,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "sameParty": false,
+          "sourceScheme": "Secure",
+          "sourcePort": 443
+        },
+        {
+          "name": "_ga_JWVHCBJL6G",
+          "value": "GS1.1.1733623062.1.0.1733623062.60.0.0",
+          "domain": ".yvetot-normandie-tourisme.fr",
+          "path": "/",
+          "expires": 1796695062,
+          "size": 52,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -4594,7 +4593,7 @@
         "cache-control": "max-age=3, must-revalidate",
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 01 Dec 2024 02:04:05 GMT",
+        "date": "Sun, 08 Dec 2024 01:57:41 GMT",
         "server": "Apache",
         "strict-transport-security": "max-age=16000000",
         "vary": "Accept-Encoding,Cookie"
@@ -4656,7 +4655,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.191.234",
+          "ip": "142.251.46.202",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4798,7 +4797,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "172.217.0.168",
+          "ip": "142.250.191.40",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4852,7 +4851,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.191.227",
+          "ip": "172.217.164.99",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4906,7 +4905,7 @@
         },
         {
           "hostname": "analytics.google.com",
-          "ip": "216.239.34.181",
+          "ip": "216.239.36.181",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4938,8 +4937,8 @@
             },
             "location": {
               "accuracy_radius": 1000,
-              "latitude": 34.0544,
-              "longitude": -118.244,
+              "latitude": 34.046,
+              "longitude": -118.2297,
               "time_zone": "America/Los_Angeles"
             },
             "registered_country": {
@@ -4976,7 +4975,7 @@
         },
         {
           "hostname": "stats.g.doubleclick.net",
-          "ip": "142.251.166.155",
+          "ip": "142.251.2.157",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -5030,19 +5029,19 @@
         },
         {
           "hostname": "www.facebook.com",
-          "ip": "57.144.174.1",
+          "ip": "157.240.22.35",
           "geoip": {
             "city": {
-              "geoname_id": 4887398,
+              "geoname_id": 5393015,
               "names": {
-                "de": "Chicago",
-                "en": "Chicago",
-                "es": "Chicago",
-                "fr": "Chicago",
-                "ja": "シカゴ",
-                "pt-BR": "Chicago",
-                "ru": "Чикаго",
-                "zh-CN": "芝加哥"
+                "de": "Santa Clara",
+                "en": "Santa Clara",
+                "es": "Santa Clara",
+                "fr": "Santa Clara",
+                "ja": "サンタクララ",
+                "pt-BR": "Santa Clara",
+                "ru": "Санта-Клара",
+                "zh-CN": "圣克拉拉"
               }
             },
             "continent": {
@@ -5075,42 +5074,41 @@
             },
             "location": {
               "accuracy_radius": 20,
-              "latitude": 41.8874,
-              "longitude": -87.6318,
-              "metro_code": 602,
-              "time_zone": "America/Chicago"
+              "latitude": 37.353,
+              "longitude": -121.9543,
+              "metro_code": 807,
+              "time_zone": "America/Los_Angeles"
             },
             "postal": {
-              "code": "60602"
+              "code": "95052"
             },
             "registered_country": {
-              "geoname_id": 2963597,
-              "is_in_european_union": true,
-              "iso_code": "IE",
+              "geoname_id": 6252001,
+              "iso_code": "US",
               "names": {
-                "de": "Irland",
-                "en": "Ireland",
-                "es": "Irlanda",
-                "fr": "Irlande",
-                "ja": "アイルランド",
-                "pt-BR": "Irlanda",
-                "ru": "Ирландия",
-                "zh-CN": "爱尔兰"
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
               }
             },
             "subdivisions": [
               {
-                "geoname_id": 4896861,
-                "iso_code": "IL",
+                "geoname_id": 5332921,
+                "iso_code": "CA",
                 "names": {
-                  "de": "Illinois",
-                  "en": "Illinois",
-                  "es": "Illinois",
-                  "fr": "Illinois",
-                  "ja": "イリノイ州",
-                  "pt-BR": "Ilinóis",
-                  "ru": "Иллинойс",
-                  "zh-CN": "伊利诺伊州"
+                  "de": "Kalifornien",
+                  "en": "California",
+                  "es": "California",
+                  "fr": "Californie",
+                  "ja": "カリフォルニア州",
+                  "pt-BR": "Califórnia",
+                  "ru": "Калифорния",
+                  "zh-CN": "加州"
                 }
               }
             ]
@@ -5125,6 +5123,24 @@
         }
       },
       "technologies": [
+        {
+          "slug": "cart-functionality",
+          "name": "Cart Functionality",
+          "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Cart-generic.svg",
+          "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 6,
+              "slug": "ecommerce",
+              "name": "Ecommerce"
+            }
+          ],
+          "rootPath": true
+        },
         {
           "slug": "wordpress",
           "name": "WordPress",
@@ -5144,24 +5160,6 @@
               "id": 11,
               "slug": "blogs",
               "name": "Blogs"
-            }
-          ],
-          "rootPath": true
-        },
-        {
-          "slug": "cart-functionality",
-          "name": "Cart Functionality",
-          "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
-          "confidence": 100,
-          "version": null,
-          "icon": "Cart-generic.svg",
-          "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 6,
-              "slug": "ecommerce",
-              "name": "Ecommerce"
             }
           ],
           "rootPath": true
@@ -5198,7 +5196,8 @@
               "slug": "programming-languages",
               "name": "Programming languages"
             }
-          ]
+          ],
+          "rootPath": true
         },
         {
           "slug": "facebook-login",
@@ -5458,6 +5457,24 @@
           "rootPath": true
         },
         {
+          "slug": "hsts",
+          "name": "HSTS",
+          "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+          "confidence": 100,
+          "version": null,
+          "icon": "default.svg",
+          "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 16,
+              "slug": "security",
+              "name": "Security"
+            }
+          ],
+          "rootPath": true
+        },
+        {
           "slug": "ovhcloud",
           "name": "OVHcloud",
           "description": "OVHcloud is a global, cloud provider delivering hosted private cloud, public cloud, and dedicated server solutions.",
@@ -5476,24 +5493,6 @@
               "id": 88,
               "slug": "hosting",
               "name": "Hosting"
-            }
-          ],
-          "rootPath": true
-        },
-        {
-          "slug": "hsts",
-          "name": "HSTS",
-          "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
-          "confidence": 100,
-          "version": null,
-          "icon": "default.svg",
-          "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 16,
-              "slug": "security",
-              "name": "Security"
             }
           ],
           "rootPath": true
@@ -5560,7 +5559,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie-tourisme.fr/",
         "finalUrl": "https://www.yvetot-normandie-tourisme.fr/",
-        "fetchTime": "2024-12-01T02:07:53.789Z",
+        "fetchTime": "2024-12-08T02:01:56.342Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -5571,7 +5570,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.4
+            "score": 0.34
           },
           "accessibility": {
             "title": "Accessibility",
@@ -5623,53 +5622,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 56274,
+            "numericValue": 58359,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6454,
-                  "firstMeaningfulPaint": 6454,
-                  "largestContentfulPaint": 104642,
-                  "interactive": 56274,
-                  "speedIndex": 41892,
-                  "totalBlockingTime": 239,
-                  "maxPotentialFID": 233,
-                  "cumulativeLayoutShift": 0.06170648193359375,
-                  "cumulativeLayoutShiftMainFrame": 0.06170648193359375,
+                  "firstContentfulPaint": 6091,
+                  "firstMeaningfulPaint": 6249,
+                  "largestContentfulPaint": 104057,
+                  "interactive": 58359,
+                  "speedIndex": 38050,
+                  "totalBlockingTime": 455,
+                  "maxPotentialFID": 285,
+                  "cumulativeLayoutShift": 0.04348022206624349,
+                  "cumulativeLayoutShiftMainFrame": 0.04348022206624349,
                   "totalCumulativeLayoutShift": 0.06170648193359375,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 424693876,
+                  "observedTimeOriginTs": 503874309,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 424693876,
-                  "observedFirstPaint": 1245,
-                  "observedFirstPaintTs": 425938954,
-                  "observedFirstContentfulPaint": 1245,
-                  "observedFirstContentfulPaintTs": 425938954,
-                  "observedFirstContentfulPaintAllFrames": 1245,
-                  "observedFirstContentfulPaintAllFramesTs": 425938954,
-                  "observedFirstMeaningfulPaint": 1245,
-                  "observedFirstMeaningfulPaintTs": 425938954,
-                  "observedLargestContentfulPaint": 2431,
-                  "observedLargestContentfulPaintTs": 427124424,
-                  "observedLargestContentfulPaintAllFrames": 2431,
-                  "observedLargestContentfulPaintAllFramesTs": 427124424,
-                  "observedTraceEnd": 4862,
-                  "observedTraceEndTs": 429556073,
-                  "observedLoad": 2392,
-                  "observedLoadTs": 427085865,
-                  "observedDomContentLoaded": 1909,
-                  "observedDomContentLoadedTs": 426602471,
-                  "observedCumulativeLayoutShift": 0.06170648193359375,
-                  "observedCumulativeLayoutShiftMainFrame": 0.06170648193359375,
+                  "observedNavigationStartTs": 503874309,
+                  "observedFirstPaint": 1728,
+                  "observedFirstPaintTs": 505602100,
+                  "observedFirstContentfulPaint": 1728,
+                  "observedFirstContentfulPaintTs": 505602100,
+                  "observedFirstContentfulPaintAllFrames": 1728,
+                  "observedFirstContentfulPaintAllFramesTs": 505602100,
+                  "observedFirstMeaningfulPaint": 1728,
+                  "observedFirstMeaningfulPaintTs": 505602100,
+                  "observedLargestContentfulPaint": 3889,
+                  "observedLargestContentfulPaintTs": 507763183,
+                  "observedLargestContentfulPaintAllFrames": 3889,
+                  "observedLargestContentfulPaintAllFramesTs": 507763183,
+                  "observedTraceEnd": 6851,
+                  "observedTraceEndTs": 510725642,
+                  "observedLoad": 4324,
+                  "observedLoadTs": 508197968,
+                  "observedDomContentLoaded": 3794,
+                  "observedDomContentLoadedTs": 507668662,
+                  "observedCumulativeLayoutShift": 0.04348022206624349,
+                  "observedCumulativeLayoutShiftMainFrame": 0.04348022206624349,
                   "observedTotalCumulativeLayoutShift": 0.06170648193359375,
-                  "observedFirstVisualChange": 1255,
-                  "observedFirstVisualChangeTs": 425948876,
-                  "observedLastVisualChange": 3488,
-                  "observedLastVisualChangeTs": 428181876,
-                  "observedSpeedIndex": 2472,
-                  "observedSpeedIndexTs": 427165579
+                  "observedFirstVisualChange": 1738,
+                  "observedFirstVisualChangeTs": 505612309,
+                  "observedLastVisualChange": 5405,
+                  "observedLastVisualChangeTs": 509279309,
+                  "observedSpeedIndex": 3942,
+                  "observedSpeedIndexTs": 507816687
                 },
                 {
                   "lcpInvalidated": false
@@ -5691,19 +5690,19 @@
                   "numScripts": 62,
                   "numStylesheets": 30,
                   "numFonts": 4,
-                  "numTasks": 3880,
+                  "numTasks": 4553,
                   "numTasksOver10ms": 21,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver25ms": 9,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 131751783.0115903,
-                  "maxRtt": 117.395,
-                  "maxServerLatency": 127.47000000000001,
-                  "totalByteWeight": 21179979,
-                  "totalTaskTime": 932.1790000000022,
-                  "mainDocumentTransferSize": 48455
+                  "throughput": 87804677.93748094,
+                  "maxRtt": 165.54299999999998,
+                  "maxServerLatency": 110.93,
+                  "totalByteWeight": 22014658,
+                  "totalTaskTime": 1120.2590000000025,
+                  "mainDocumentTransferSize": 49339
                 }
               ]
             }
@@ -5725,15 +5724,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie-tourisme.fr",
-        "size": 22444.533,
-        "nodes": 903,
-        "requests": 175,
+        "size": 23287.364,
+        "nodes": 909,
+        "requests": 180,
         "grade": "F",
-        "score": 22,
-        "ges": 2.56,
-        "water": 3.84,
+        "score": 21,
+        "ges": 2.58,
+        "water": 3.87,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-01 02:05:03.573968",
+        "date": "2024-12-08 01:58:43.928569",
         "page_type": "website"
       }
     ],
@@ -5749,7 +5748,7 @@
       "cookiesCount": 3,
       "trackersGrade": "F",
       "trackersCount": 16,
-      "lighthouse_performance": 0.4,
+      "lighthouse_performance": 0.34,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.89,
       "lighthouse_accessibilityGrade": "A",
