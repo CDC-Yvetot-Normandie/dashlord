@@ -297,7 +297,7 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03E72A3E0D08966E57E402AA6F81EE5AFE54"
+              "finding"      : "03616CA26EE686F47A80788200E110602EC3"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "37F0E0AA5C0F8D8454C97E7C95AA38AED3C0B5C0"
+              "finding"      : "16542348C8124A40A0AE0D8C2479FCD667461544"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58E4CFF54188BA14A043A4BD033B0752E150EF13C72833E80808781FB46EE686"
+              "finding"      : "16E077826CB4CDFB8C3E4FABD331C9897D40F998513423384B4AAC0E7E617A9D"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFDzCCA/egAwIBAgISA+cqPg0Ilm5X5AKqb4HuWv5UMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQxMTAzMDEzOTU0WhcNMjUwMjAxMDEzOTUzWjArMSkwJwYDVQQDEyB3d3cueXZldG90LW5vcm1hbmRpZS10b3VyaXNtZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO6nBFKY9HIi2OAOl++OkBekxVIXYM1b7tAyxSvErFXk8/1YYUesY/6xx7rf1PZarQYrd6Zbxqma+Bn1dR/uEbYUclASAoFr/Rm4jrqFXG7UM2VqmlnJDvpNCP73TC9/pb0JXZZ7yvnLktvMygdfkHgS7UXbHAQoW3tlXePfxp2sTZnXN/RmTVYzJ0MKXKP1USjL34nO3kwWVfkKKQz4NL4FmrgwjZyRmy9Saprj97f2By+Gut3+nCUNVCHcqGxZxr+sSHG7kOSChDqPr5Y2LiYr7VT25v+QEwtXjdtSoGw1SjeNFp44OXRVqNQvWywOW1ahtEqCcpW5Nguy9WbKFgkCAwEAAaOCAiMwggIfMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU+U36EglTNJz2InY+mEoGFYEvelUwHwYDVR0jBBgwFoAUxc9GpOr0w8B6bJXELbBeki8m47kwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjExLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjExLmkubGVuY3Iub3JnLzArBgNVHREEJDAigiB3d3cueXZldG90LW5vcm1hbmRpZS10b3VyaXNtZS5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABku/jUPcAAAQDAEYwRAIgah3TpbdpsCnO229oM4T3PZdvZ1vQ955yH2SFfYv9MV0CIEuLZOOd57I/1Y2XVj3eGudWb6fRdxmPBGnFzBsm3jjNAHYA4JKz/AwdyOdoNh/eYbmWTQpSeBmKctZyxLBNpW1vVAQAAAGS7+NROgAABAMARzBFAiEAvxiUY1ciMBNQTmIDxQ83HcYyM+zsEBuSlpriGJsd2H4CIFgh7KNR31Ve97pKBEdUT2K9mQ06qBUudX+BYf1+pbfyMA0GCSqGSIb3DQEBCwUAA4IBAQCf8VGaRRazWrpbLw9iFtZNUD6xbMzjqyvcse2s+ptBmYQqwwpGk+aXoT72GhZ0ErS54csA97obNpWGhPwALChTPkvW+PdHrKChkX+Naxm6Q8QnhFcJo7C7SrP6JSBqzxXB3vx2IekuqyKr0nmZMgdLCa8qI0gEmescZUHrF/2rrSjDykNAW3wYe/aJLvmleu6K+nkBszNGTzHTZ3oQvP/tpHr9rF/b17QXj3nNY3xIEObM1mF2Rw9SXDhpECaWtZXpOc43vlSqHtQpB0HOH79r4rFHsawo5wUAHrKcu1pu6WUSDsosvS7Kt914YSigIW6/+wu2xtZwlwSyp01BVkaP\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFDzCCA/egAwIBAgISA2Fsom7mhvR6gHiCAOEQYC7DMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjUwMTAyMjEwMTQ5WhcNMjUwNDAyMjEwMTQ4WjArMSkwJwYDVQQDEyB3d3cueXZldG90LW5vcm1hbmRpZS10b3VyaXNtZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJyebcb9N3HktU/PCC/S6vgz+4IYbjLH9Iyb6GEXv1AImiSNytXpTCJ6RNTdmaOYR20aofNcs7RkuDD5UfIMIkemPYfy+7Nv+W1c4rGWsAi/cTlakE7Pa8tKqEkRAjpVg9vhKgHCkCyUnZmSdzzyGxoVGOUZOx8xQr3NaFwqHCbXdRdmoBToYSftryP6r6HABAwNvngJ5X4oHlHL8ubarH6COFKoC9fcFCOtGOGn+EXcrelTQjMHqbodPIl3pLbRXAN8BFG2SJ6+MQT7i2qxoZKhccK1RXv48jQeERU5dJ7wgHB/XBcuDsarV0qUI0ecyUzmS68Z+Orvu6FqU/mFl5ECAwEAAaOCAiMwggIfMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUpx9+td/kDnALhq98183FZmrJIr8wHwYDVR0jBBgwFoAUxc9GpOr0w8B6bJXELbBeki8m47kwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjExLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjExLmkubGVuY3Iub3JnLzArBgNVHREEJDAigiB3d3cueXZldG90LW5vcm1hbmRpZS10b3VyaXNtZS5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AKLjCuRF772tm3447Udnd1PXgluElNcrXhssxLlQpEfnAAABlCkIofkAAAQDAEcwRQIhAM1GIcuWrd8rrRVuC3hfUDt2y5YjX5NUG18muiccSmA1AiBGxcKNjIJ2n6jqjk2AeQ2vCKmY+NiVWcBD2SOzlMqzcwB1AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAABlCkIog8AAAQDAEYwRAIgWPtGdnq8NJsNQ6FceNx4bhnK95jWXzHHfX5wlgSk7ywCIC6cfQcm5pTUeM2/aMU32PoARZ5tiTnfhMWy+nJ9Ckv/MA0GCSqGSIb3DQEBCwUAA4IBAQCy180WNhFJBsT++B5uKLwxx9AxZzuzQd2oRnSqFHcHKdPl4FxNcndLjO/f902pHpCBOxF1SYJFt9047C43W/CWIc+WNfdZW2+BinAAje94et3zzEy0l8GdwxTiQyd7rOHJtzgaWwVBUtlbe5FSiurzmoCIlRK45l4S8LZVsfMora3OMgRhQJLOwlcuM9cOAUFI3471dTDTthWhZ+Q33v1fb6nD2focB0grgq3TTxDp7XkcAAgLZUsM4HHiZWFzX1We+bGDWUgUYpV5chwvzxHZvmjFXueWaxO7sGoI3FheBgnNk/030348dETXSzXxz6R5zJNARo8KdvxB33XCV9x0\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -374,21 +374,21 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "33 >= 30 days"
+              "finding"      : "87 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-11-03 01:39"
+              "finding"      : "2025-01-02 21:01"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-02-01 01:39"
+              "finding"      : "2025-04-02 21:01"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,7 +535,7 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1735437232"
+              "finding"      : "1736041977"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -729,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=58E4CFF54188BA14A043A4BD033B0752E150EF13C72833E80808781FB46EE686"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=16E077826CB4CDFB8C3E4FABD331C9897D40F998513423384B4AAC0E7E617A9D"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
