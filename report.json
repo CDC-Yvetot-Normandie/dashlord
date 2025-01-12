@@ -208,7 +208,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "supported"
+        "finding": "not supported"
       },
       {
         "id": "TLS_timestamp",
@@ -348,7 +348,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "OK",
-        "finding": "84 >= 30 days"
+        "finding": "77 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -509,7 +509,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736041991"
+        "finding": "1736646940"
       },
       {
         "id": "HSTS_time",
@@ -1114,653 +1114,14 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "68"
+        "finding": "107"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.7.1",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.google.com/recaptcha/api.js?render=6Ldqi6wqAAAAAC2qqokcsUUAXoE9PDwr1feql06e&ver=3.0",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/embeded/1927924165?mode=device"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldqi6wqAAAAAC2qqokcsUUAXoE9PDwr1feql06e&co=aHR0cHM6Ly93d3cueXZldG90LW5vcm1hbmRpZS5mcjo0NDM.&hl=en&v=zIriijn3uj5Vpknvt_LnfNbF&size=invisible&cb=3dgr4ugegfy9",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/embeded/1927924165/1559745163?mode=device&autoNavigation=0"
-        },
-        {
-          "type": "google",
-          "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.google.com/js/bg/97uzgHxzdqXefmTg8wPeKCy4kla86q4zhj2nq_yidw0.js",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=zIriijn3uj5Vpknvt_LnfNbF",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/build/embeded.87c61321.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/build/runtime.0e3557f9.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/build/552.7e93e5a0.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/build/embeded.286a9149.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/build/images/logo/logo-small.5ea87d10.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app.panneaupocket.com/image/sign_image/mobile_message/9092761746777defec2c1c3.87466811-1735909118.png"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://panneau-pocket.s3.gra.perf.cloud.ovh.net/cache/sign_image/9092761746777defec2c1c3.87466811-1735909118.png/eccd41f1cf0a600b2a76bea1e471e5c2"
-        },
-        {
-          "type": "google",
-          "url": "https://www.google.com/recaptcha/api2/reload?k=6Ldqi6wqAAAAAC2qqokcsUUAXoE9PDwr1feql06e",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://www.google.com/recaptcha/api2/clr?k=6Ldqi6wqAAAAAC2qqokcsUUAXoE9PDwr1feql06e",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        }
-      ],
-      "cookies": [],
-      "headers": {
-        "cache-control": "max-age=0",
-        "content-encoding": "gzip",
-        "content-security-policy": "upgrade-insecure-requests",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 05 Jan 2025 01:48:18 GMT",
-        "expires": "Sun, 05 Jan 2025 01:48:17 GMT",
-        "link": "<https://www.yvetot-normandie.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.yvetot-normandie.fr/wp-json/wp/v2/pages/5998>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.yvetot-normandie.fr/>; rel=shortlink",
-        "permissions-policy": "geolocation=(), midi=(),sync-xhr=(),accelerometer=(), gyroscope=(), magnetometer=(), camera=(), fullscreen=(self)",
-        "referrer-policy": "strict-origin-when-cross-origin",
-        "server": "OVHcloud",
-        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
-        "vary": "Accept-Encoding,User-Agent",
-        "x-content-type-options": "nosniff",
-        "x-frame-options": "sameorigin",
-        "x-powered-by": "PHP/8.3",
-        "x-xss-protection": "1; mode=block"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.yvetot-normandie.fr",
-          "ip": "54.36.91.62",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.googleapis.com",
-          "ip": "142.251.167.95",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.google.com",
-          "ip": "142.251.179.99",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.gstatic.com",
-          "ip": "172.253.115.94",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "app.panneaupocket.com",
-          "ip": "188.165.47.194",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.gstatic.com",
-          "ip": "142.251.16.94",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "panneau-pocket.s3.gra.perf.cloud.ovh.net",
-          "ip": "141.95.161.76",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null,
+      "endpoints": null
     },
     "wappalyzer": {
       "urls": {
@@ -1954,7 +1315,7 @@
           "name": "Complianz",
           "description": "Complianz is a GDPR/CCPA Cookie Consent plugin that supports GDPR, DSGVO, CCPA and PIPEDA with a conditional Cookie Notice and customized Cookie Policy based on the results of the built-in Cookie Scan.",
           "confidence": 100,
-          "version": "7.1.5",
+          "version": "7.2.0",
           "icon": "Complianz.png",
           "website": "https://complianz.io",
           "cpe": null,
@@ -2335,7 +1696,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie.fr/",
         "finalUrl": "https://www.yvetot-normandie.fr/",
-        "fetchTime": "2025-01-05T01:52:21.597Z",
+        "fetchTime": "2025-01-12T01:54:18.938Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2346,7 +1707,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.44
+            "score": 0.39
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2398,53 +1759,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15272,
+            "numericValue": 12709,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4250,
-                  "firstMeaningfulPaint": 4250,
-                  "largestContentfulPaint": 12856,
-                  "interactive": 15272,
-                  "speedIndex": 10151,
-                  "totalBlockingTime": 256,
-                  "maxPotentialFID": 204,
-                  "cumulativeLayoutShift": 0.015528812408447265,
-                  "cumulativeLayoutShiftMainFrame": 0.015528812408447265,
-                  "totalCumulativeLayoutShift": 0.015528812408447265,
+                  "firstContentfulPaint": 5336,
+                  "firstMeaningfulPaint": 5336,
+                  "largestContentfulPaint": 8232,
+                  "interactive": 12709,
+                  "speedIndex": 9715,
+                  "totalBlockingTime": 409,
+                  "maxPotentialFID": 261,
+                  "cumulativeLayoutShift": 0.0172270961271392,
+                  "cumulativeLayoutShiftMainFrame": 0.017142925262451175,
+                  "totalCumulativeLayoutShift": 0.017142925262451175,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 953976070,
+                  "observedTimeOriginTs": 352706584,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 953976070,
-                  "observedFirstPaint": 2420,
-                  "observedFirstPaintTs": 956396125,
-                  "observedFirstContentfulPaint": 2420,
-                  "observedFirstContentfulPaintTs": 956396125,
-                  "observedFirstContentfulPaintAllFrames": 2420,
-                  "observedFirstContentfulPaintAllFramesTs": 956396125,
-                  "observedFirstMeaningfulPaint": 2420,
-                  "observedFirstMeaningfulPaintTs": 956396125,
-                  "observedLargestContentfulPaint": 2724,
-                  "observedLargestContentfulPaintTs": 956699783,
-                  "observedLargestContentfulPaintAllFrames": 2724,
-                  "observedLargestContentfulPaintAllFramesTs": 956699783,
-                  "observedTraceEnd": 6232,
-                  "observedTraceEndTs": 960208390,
-                  "observedLoad": 3924,
-                  "observedLoadTs": 957899598,
-                  "observedDomContentLoaded": 2477,
-                  "observedDomContentLoadedTs": 956452893,
-                  "observedCumulativeLayoutShift": 0.015528812408447265,
-                  "observedCumulativeLayoutShiftMainFrame": 0.015528812408447265,
-                  "observedTotalCumulativeLayoutShift": 0.015528812408447265,
-                  "observedFirstVisualChange": 2419,
-                  "observedFirstVisualChangeTs": 956395070,
-                  "observedLastVisualChange": 6185,
-                  "observedLastVisualChangeTs": 960161070,
-                  "observedSpeedIndex": 4125,
-                  "observedSpeedIndexTs": 958101008
+                  "observedNavigationStartTs": 352706584,
+                  "observedFirstPaint": 1720,
+                  "observedFirstPaintTs": 354426720,
+                  "observedFirstContentfulPaint": 1720,
+                  "observedFirstContentfulPaintTs": 354426720,
+                  "observedFirstContentfulPaintAllFrames": 1720,
+                  "observedFirstContentfulPaintAllFramesTs": 354426720,
+                  "observedFirstMeaningfulPaint": 1720,
+                  "observedFirstMeaningfulPaintTs": 354426720,
+                  "observedLargestContentfulPaint": 2038,
+                  "observedLargestContentfulPaintTs": 354744436,
+                  "observedLargestContentfulPaintAllFrames": 2038,
+                  "observedLargestContentfulPaintAllFramesTs": 354744436,
+                  "observedTraceEnd": 6501,
+                  "observedTraceEndTs": 359207835,
+                  "observedLoad": 4191,
+                  "observedLoadTs": 356898050,
+                  "observedDomContentLoaded": 1838,
+                  "observedDomContentLoadedTs": 354544520,
+                  "observedCumulativeLayoutShift": 0.0172270961271392,
+                  "observedCumulativeLayoutShiftMainFrame": 0.017142925262451175,
+                  "observedTotalCumulativeLayoutShift": 0.017142925262451175,
+                  "observedFirstVisualChange": 1729,
+                  "observedFirstVisualChangeTs": 354435584,
+                  "observedLastVisualChange": 6479,
+                  "observedLastVisualChangeTs": 359185584,
+                  "observedSpeedIndex": 3557,
+                  "observedSpeedIndexTs": 356264082
                 },
                 {
                   "lcpInvalidated": false
@@ -2466,19 +1827,19 @@
                   "numScripts": 35,
                   "numStylesheets": 23,
                   "numFonts": 5,
-                  "numTasks": 2381,
+                  "numTasks": 2597,
                   "numTasksOver10ms": 14,
-                  "numTasksOver25ms": 7,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver25ms": 8,
+                  "numTasksOver50ms": 5,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 20312148.192492068,
-                  "maxRtt": 84.405,
-                  "maxServerLatency": 155.693,
-                  "totalByteWeight": 27514793,
-                  "totalTaskTime": 914.9459999999946,
-                  "mainDocumentTransferSize": 23421
+                  "throughput": 9150659.301371383,
+                  "maxRtt": 151.155,
+                  "maxServerLatency": 165.727,
+                  "totalByteWeight": 26839207,
+                  "totalTaskTime": 996.5339999999986,
+                  "mainDocumentTransferSize": 23431
                 }
               ]
             }
@@ -2501,7 +1862,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie.fr",
-        "size": 1331.384,
+        "size": 1331.433,
         "nodes": 660,
         "requests": 59,
         "grade": "D",
@@ -2509,7 +1870,7 @@
         "ges": 1.94,
         "water": 2.91,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 01:49:19.413404",
+        "date": "2025-01-12 01:51:03.432975",
         "page_type": null
       }
     ],
@@ -2521,11 +1882,11 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-03-30T05:17:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "A",
-      "cookiesCount": 0,
-      "trackersGrade": "F",
-      "trackersCount": 34,
-      "lighthouse_performance": 0.44,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
+      "lighthouse_performance": 0.39,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.99,
       "lighthouse_accessibilityGrade": "A",
@@ -2924,7 +2285,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "OK",
-        "finding": "87 >= 30 days"
+        "finding": "80 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3078,14 +2439,14 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736041977"
+        "finding": "1736646913"
       },
       {
         "id": "HSTS_time",
@@ -3655,742 +3016,14 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "62"
+        "finding": "116"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "facebook",
-          "url": "https://connect.facebook.net/fr_FR/sdk.js",
-          "details": {
-            "id": "facebook",
-            "message": "Dont embed facebook scripts, use your own tweet embed"
-          }
-        },
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-JWVHCBJL6G",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/amaticsc/v26/TUZyzwprpvBS1izr_vOECuSf.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/amaticsc/v26/TUZ3zwprpvBS1izr_vOMscGKfrUC.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/amaticsc/v26/TUZyzwprpvBS1izr_vOECuSf.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/amaticsc/v26/TUZ3zwprpvBS1izr_vOMscGKfrUC.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "facebook",
-          "url": "https://connect.facebook.net/fr_FR/sdk.js?hash=49d63abb3145ae31601afca55688ac6a",
-          "details": {
-            "id": "facebook",
-            "message": "Dont embed facebook scripts, use your own tweet embed"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google",
-          "url": "https://analytics.google.com/g/collect?v=2&tid=G-JWVHCBJL6G&gtm=45je4cc1v9121321245za200&_p=1736041693899&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101925629~102067555~102067808~102081485~102198178&cid=513850044.1736041694&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1736041694&sct=1&seg=0&dl=https%3A%2F%2Fwww.yvetot-normandie-tourisme.fr%2F&dt=OT%20Yvetot%20-%20Site%20officiel%20de%20l%27Office%20de%20Tourisme%20de%20Yvetot&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1207",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google analytics",
-          "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-JWVHCBJL6G&cid=513850044.1736041694&gtm=45je4cc1v9121321245za200&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101925629~102067555~102067808~102081485~102198178",
-          "details": {
-            "id": "google analytics",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "facebook",
-          "url": "https://www.facebook.com/v5.0/plugins/page.php?adapt_container_width=true&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfe05669959640d6df%26domain%3Dwww.yvetot-normandie-tourisme.fr%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.yvetot-normandie-tourisme.fr%252Ff1b300923ee7e8859%26relation%3Dparent.parent&container_width=760&height=400&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fyntourisme%2F&locale=fr_FR&sdk=joey&show_facepile=false&small_header=true&tabs=timeline&width=",
-          "details": {
-            "id": "facebook",
-            "message": "Dont embed facebook scripts, use your own tweet embed"
-          }
-        }
-      ],
-      "cookies": [
-        {
-          "name": "_ga",
-          "value": "GA1.1.513850044.1736041694",
-          "domain": ".yvetot-normandie-tourisme.fr",
-          "path": "/",
-          "expires": 1799113694,
-          "size": 29,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
-          "name": "_ga_JWVHCBJL6G",
-          "value": "GS1.1.1736041694.1.0.1736041694.60.0.0",
-          "domain": ".yvetot-normandie-tourisme.fr",
-          "path": "/",
-          "expires": 1799113694,
-          "size": 52,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
-          "name": "cookieconsent_status_marketing",
-          "value": "deny",
-          "domain": "www.yvetot-normandie-tourisme.fr",
-          "path": "/",
-          "expires": 1736149694,
-          "size": 34,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        }
-      ],
-      "headers": {
-        "cache-control": "max-age=3, must-revalidate",
-        "content-encoding": "gzip",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 05 Jan 2025 01:48:13 GMT",
-        "server": "Apache",
-        "strict-transport-security": "max-age=16000000",
-        "vary": "Accept-Encoding,Cookie"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.yvetot-normandie-tourisme.fr",
-          "ip": "185.177.62.138",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 2658434,
-              "iso_code": "CH",
-              "names": {
-                "de": "Schweiz",
-                "en": "Switzerland",
-                "es": "Suiza",
-                "fr": "Suisse",
-                "ja": "スイス連邦",
-                "pt-BR": "Suíça",
-                "ru": "Швейцария",
-                "zh-CN": "瑞士"
-              }
-            },
-            "location": {
-              "accuracy_radius": 100,
-              "latitude": 47.1449,
-              "longitude": 8.1551,
-              "time_zone": "Europe/Zurich"
-            },
-            "registered_country": {
-              "geoname_id": 2658434,
-              "iso_code": "CH",
-              "names": {
-                "de": "Schweiz",
-                "en": "Switzerland",
-                "es": "Suiza",
-                "fr": "Suisse",
-                "ja": "スイス連邦",
-                "pt-BR": "Suíça",
-                "ru": "Швейцария",
-                "zh-CN": "瑞士"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.googleapis.com",
-          "ip": "142.251.179.95",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "connect.facebook.net",
-          "ip": "157.240.229.1",
-          "geoip": {
-            "city": {
-              "geoname_id": 4744870,
-              "names": {
-                "de": "Ashburn",
-                "en": "Ashburn",
-                "es": "Ashburn",
-                "fr": "Ashburn",
-                "ja": "アッシュバーン",
-                "pt-BR": "Ashburn",
-                "ru": "Ашберн",
-                "zh-CN": "阿什本"
-              }
-            },
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 39.0469,
-              "longitude": -77.4903,
-              "metro_code": 511,
-              "time_zone": "America/New_York"
-            },
-            "postal": {
-              "code": "20149"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 6254928,
-                "iso_code": "VA",
-                "names": {
-                  "de": "Virginia",
-                  "en": "Virginia",
-                  "es": "Virginia",
-                  "fr": "Virginie",
-                  "ja": "バージニア州",
-                  "pt-BR": "Virgínia",
-                  "ru": "Вирджиния",
-                  "zh-CN": "弗吉尼亚州"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "www.googletagmanager.com",
-          "ip": "142.251.179.97",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.gstatic.com",
-          "ip": "172.253.122.94",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "analytics.google.com",
-          "ip": "64.233.180.139",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "stats.g.doubleclick.net",
-          "ip": "142.251.163.155",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.facebook.com",
-          "ip": "31.13.66.35",
-          "geoip": {
-            "city": {
-              "geoname_id": 4744870,
-              "names": {
-                "de": "Ashburn",
-                "en": "Ashburn",
-                "es": "Ashburn",
-                "fr": "Ashburn",
-                "ja": "アッシュバーン",
-                "pt-BR": "Ashburn",
-                "ru": "Ашберн",
-                "zh-CN": "阿什本"
-              }
-            },
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 39.0469,
-              "longitude": -77.4903,
-              "metro_code": 511,
-              "time_zone": "America/New_York"
-            },
-            "postal": {
-              "code": "20149"
-            },
-            "registered_country": {
-              "geoname_id": 2963597,
-              "is_in_european_union": true,
-              "iso_code": "IE",
-              "names": {
-                "de": "Irland",
-                "en": "Ireland",
-                "es": "Irlanda",
-                "fr": "Irlande",
-                "ja": "アイルランド",
-                "pt-BR": "Irlanda",
-                "ru": "Ирландия",
-                "zh-CN": "爱尔兰"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 6254928,
-                "iso_code": "VA",
-                "names": {
-                  "de": "Virginia",
-                  "en": "Virginia",
-                  "es": "Virginia",
-                  "fr": "Virginie",
-                  "ja": "バージニア州",
-                  "pt-BR": "Virgínia",
-                  "ru": "Вирджиния",
-                  "zh-CN": "弗吉尼亚州"
-                }
-              }
-            ]
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null,
+      "endpoints": null
     },
     "wappalyzer": {
       "urls": {
@@ -4834,7 +3467,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie-tourisme.fr/",
         "finalUrl": "https://www.yvetot-normandie-tourisme.fr/",
-        "fetchTime": "2025-01-05T01:52:10.043Z",
+        "fetchTime": "2025-01-12T01:53:45.105Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4845,7 +3478,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.33
+            "score": 0.38
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4897,53 +3530,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 44163,
+            "numericValue": 33416,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5158,
-                  "firstMeaningfulPaint": 5158,
-                  "largestContentfulPaint": 77404,
-                  "interactive": 44163,
-                  "speedIndex": 32676,
-                  "totalBlockingTime": 491,
-                  "maxPotentialFID": 276,
-                  "cumulativeLayoutShift": 0.06170648193359375,
-                  "cumulativeLayoutShiftMainFrame": 0.06170648193359375,
-                  "totalCumulativeLayoutShift": 0.06170648193359375,
+                  "firstContentfulPaint": 5914,
+                  "firstMeaningfulPaint": 5914,
+                  "largestContentfulPaint": 52319,
+                  "interactive": 33416,
+                  "speedIndex": 22382,
+                  "totalBlockingTime": 332,
+                  "maxPotentialFID": 200,
+                  "cumulativeLayoutShift": 0.05737296697828505,
+                  "cumulativeLayoutShiftMainFrame": 0.05737296697828505,
+                  "totalCumulativeLayoutShift": 0.07562912050882975,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 529320181,
+                  "observedTimeOriginTs": 320842130,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 529320181,
-                  "observedFirstPaint": 1114,
-                  "observedFirstPaintTs": 530434185,
-                  "observedFirstContentfulPaint": 1114,
-                  "observedFirstContentfulPaintTs": 530434185,
-                  "observedFirstContentfulPaintAllFrames": 1114,
-                  "observedFirstContentfulPaintAllFramesTs": 530434185,
-                  "observedFirstMeaningfulPaint": 1114,
-                  "observedFirstMeaningfulPaintTs": 530434185,
-                  "observedLargestContentfulPaint": 1896,
-                  "observedLargestContentfulPaintTs": 531215787,
-                  "observedLargestContentfulPaintAllFrames": 1896,
-                  "observedLargestContentfulPaintAllFramesTs": 531215787,
-                  "observedTraceEnd": 4302,
-                  "observedTraceEndTs": 533621958,
-                  "observedLoad": 1848,
-                  "observedLoadTs": 531168479,
-                  "observedDomContentLoaded": 1472,
-                  "observedDomContentLoadedTs": 530792678,
-                  "observedCumulativeLayoutShift": 0.06170648193359375,
-                  "observedCumulativeLayoutShiftMainFrame": 0.06170648193359375,
-                  "observedTotalCumulativeLayoutShift": 0.06170648193359375,
-                  "observedFirstVisualChange": 1125,
-                  "observedFirstVisualChangeTs": 530445181,
-                  "observedLastVisualChange": 2941,
-                  "observedLastVisualChangeTs": 532261181,
-                  "observedSpeedIndex": 2029,
-                  "observedSpeedIndexTs": 531349079
+                  "observedNavigationStartTs": 320842130,
+                  "observedFirstPaint": 1673,
+                  "observedFirstPaintTs": 322515406,
+                  "observedFirstContentfulPaint": 1673,
+                  "observedFirstContentfulPaintTs": 322515406,
+                  "observedFirstContentfulPaintAllFrames": 1673,
+                  "observedFirstContentfulPaintAllFramesTs": 322515406,
+                  "observedFirstMeaningfulPaint": 1673,
+                  "observedFirstMeaningfulPaintTs": 322515406,
+                  "observedLargestContentfulPaint": 3247,
+                  "observedLargestContentfulPaintTs": 324089472,
+                  "observedLargestContentfulPaintAllFrames": 3247,
+                  "observedLargestContentfulPaintAllFramesTs": 324089472,
+                  "observedTraceEnd": 6955,
+                  "observedTraceEndTs": 327796971,
+                  "observedLoad": 3309,
+                  "observedLoadTs": 324150981,
+                  "observedDomContentLoaded": 3141,
+                  "observedDomContentLoadedTs": 323983203,
+                  "observedCumulativeLayoutShift": 0.05737296697828505,
+                  "observedCumulativeLayoutShiftMainFrame": 0.05737296697828505,
+                  "observedTotalCumulativeLayoutShift": 0.07562912050882975,
+                  "observedFirstVisualChange": 1678,
+                  "observedFirstVisualChangeTs": 322520130,
+                  "observedLastVisualChange": 4361,
+                  "observedLastVisualChangeTs": 325203130,
+                  "observedSpeedIndex": 3257,
+                  "observedSpeedIndexTs": 324099036
                 },
                 {
                   "lcpInvalidated": false
@@ -4961,23 +3594,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 179,
-                  "numScripts": 72,
+                  "numRequests": 176,
+                  "numScripts": 71,
                   "numStylesheets": 31,
                   "numFonts": 7,
-                  "numTasks": 3357,
-                  "numTasksOver10ms": 20,
-                  "numTasksOver25ms": 9,
+                  "numTasks": 3524,
+                  "numTasksOver10ms": 19,
+                  "numTasksOver25ms": 6,
                   "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 2,
+                  "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 123553081.4947018,
-                  "maxRtt": 100.426,
-                  "maxServerLatency": 109.42699999999999,
-                  "totalByteWeight": 15137856,
-                  "totalTaskTime": 996.0730000000067,
-                  "mainDocumentTransferSize": 50001
+                  "throughput": 52793071.65492548,
+                  "maxRtt": 165.658,
+                  "maxServerLatency": 216.918,
+                  "totalByteWeight": 10872702,
+                  "totalTaskTime": 896.5740000000011,
+                  "mainDocumentTransferSize": 49489
                 }
               ]
             }
@@ -4999,15 +3632,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie-tourisme.fr",
-        "size": 15838.057,
-        "nodes": 967,
-        "requests": 178,
+        "size": 11675.536,
+        "nodes": 944,
+        "requests": 175,
         "grade": "F",
-        "score": 20,
-        "ges": 2.6,
-        "water": 3.9,
+        "score": 21,
+        "ges": 2.58,
+        "water": 3.87,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 01:49:09.930819",
+        "date": "2025-01-12 01:50:54.540295",
         "page_type": "website"
       }
     ],
@@ -5019,12 +3652,12 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-02T21:01:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "C",
-      "cookiesCount": 3,
-      "trackersGrade": "F",
-      "trackersCount": 22,
-      "lighthouse_performance": 0.33,
-      "lighthouse_performanceGrade": "E",
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
+      "lighthouse_performance": 0.38,
+      "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.89,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.92,
