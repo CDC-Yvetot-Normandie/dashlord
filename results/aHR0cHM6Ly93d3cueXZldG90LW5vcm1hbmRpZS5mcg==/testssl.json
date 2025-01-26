@@ -339,7 +339,7 @@
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "70 >= 30 days"
+              "finding"      : "63 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1737251367"
+              "finding"      : "1737856013"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -585,6 +585,13 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1; mode=block"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "geolocation=(), midi=(),sync-xhr=(),accelerometer=(), gyroscope=(), magnetometer=(), camera=(), fullscreen=(self)"
           }
 ,         {
               "id"           : "Referrer-Policy",
@@ -1105,6 +1112,6 @@
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "68"
+              "finding"      : "69"
           }
 ]
