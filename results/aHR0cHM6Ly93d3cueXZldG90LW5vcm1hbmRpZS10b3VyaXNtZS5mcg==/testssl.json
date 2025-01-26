@@ -356,6 +356,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
@@ -374,7 +381,7 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "73 >= 30 days"
+              "finding"      : "66 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -528,14 +535,14 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1737251361"
+              "finding"      : "1737855967"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1105,6 +1112,6 @@
               "ip"           : "www.yvetot-normandie-tourisme.fr/185.177.62.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "64"
+              "finding"      : "62"
           }
 ]
