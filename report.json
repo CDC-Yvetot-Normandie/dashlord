@@ -348,7 +348,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "OK",
-        "finding": "70 >= 30 days"
+        "finding": "63 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -502,14 +502,14 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "1737251367"
+        "finding": "1737856013"
       },
       {
         "id": "HSTS_time",
@@ -594,6 +594,13 @@
         "port": "443",
         "severity": "INFO",
         "finding": "1; mode=block"
+      },
+      {
+        "id": "Permissions-Policy",
+        "ip": "www.yvetot-normandie.fr/54.36.91.62",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "geolocation=(), midi=(),sync-xhr=(),accelerometer=(), gyroscope=(), magnetometer=(), camera=(), fullscreen=(self)"
       },
       {
         "id": "Referrer-Policy",
@@ -1114,7 +1121,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "68"
+        "finding": "69"
       }
     ],
     "thirdparties": {
@@ -1696,7 +1703,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie.fr/",
         "finalUrl": "https://www.yvetot-normandie.fr/",
-        "fetchTime": "2025-01-19T01:48:39.055Z",
+        "fetchTime": "2025-01-26T01:45:57.811Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1707,7 +1714,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.47
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1759,53 +1766,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 12046,
+            "numericValue": 11341,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4722,
-                  "firstMeaningfulPaint": 4722,
-                  "largestContentfulPaint": 9248,
-                  "interactive": 12046,
-                  "speedIndex": 8302,
-                  "totalBlockingTime": 239,
-                  "maxPotentialFID": 231,
-                  "cumulativeLayoutShift": 0.015528812408447265,
-                  "cumulativeLayoutShiftMainFrame": 0.015528812408447265,
-                  "totalCumulativeLayoutShift": 0.015528812408447265,
+                  "firstContentfulPaint": 4526,
+                  "firstMeaningfulPaint": 4526,
+                  "largestContentfulPaint": 8488,
+                  "interactive": 11341,
+                  "speedIndex": 10643,
+                  "totalBlockingTime": 182,
+                  "maxPotentialFID": 222,
+                  "cumulativeLayoutShift": 0.01730382919311524,
+                  "cumulativeLayoutShiftMainFrame": 0.01730382919311524,
+                  "totalCumulativeLayoutShift": 0.01730382919311524,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 344138894,
+                  "observedTimeOriginTs": 408100788,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 344138894,
-                  "observedFirstPaint": 1759,
-                  "observedFirstPaintTs": 345897849,
-                  "observedFirstContentfulPaint": 1759,
-                  "observedFirstContentfulPaintTs": 345897849,
-                  "observedFirstContentfulPaintAllFrames": 1759,
-                  "observedFirstContentfulPaintAllFramesTs": 345897849,
-                  "observedFirstMeaningfulPaint": 1759,
-                  "observedFirstMeaningfulPaintTs": 345897849,
-                  "observedLargestContentfulPaint": 2016,
-                  "observedLargestContentfulPaintTs": 346155195,
-                  "observedLargestContentfulPaintAllFrames": 2016,
-                  "observedLargestContentfulPaintAllFramesTs": 346155195,
-                  "observedTraceEnd": 5853,
-                  "observedTraceEndTs": 349992323,
-                  "observedLoad": 3543,
-                  "observedLoadTs": 347682164,
-                  "observedDomContentLoaded": 1828,
-                  "observedDomContentLoadedTs": 345966838,
-                  "observedCumulativeLayoutShift": 0.015528812408447265,
-                  "observedCumulativeLayoutShiftMainFrame": 0.015528812408447265,
-                  "observedTotalCumulativeLayoutShift": 0.015528812408447265,
-                  "observedFirstVisualChange": 1763,
-                  "observedFirstVisualChangeTs": 345901894,
-                  "observedLastVisualChange": 5763,
-                  "observedLastVisualChangeTs": 349901894,
-                  "observedSpeedIndex": 3473,
-                  "observedSpeedIndexTs": 347611595
+                  "observedNavigationStartTs": 408100788,
+                  "observedFirstPaint": 3204,
+                  "observedFirstPaintTs": 411304504,
+                  "observedFirstContentfulPaint": 3204,
+                  "observedFirstContentfulPaintTs": 411304504,
+                  "observedFirstContentfulPaintAllFrames": 3204,
+                  "observedFirstContentfulPaintAllFramesTs": 411304504,
+                  "observedFirstMeaningfulPaint": 3204,
+                  "observedFirstMeaningfulPaintTs": 411304504,
+                  "observedLargestContentfulPaint": 3495,
+                  "observedLargestContentfulPaintTs": 411595843,
+                  "observedLargestContentfulPaintAllFrames": 3495,
+                  "observedLargestContentfulPaintAllFramesTs": 411595843,
+                  "observedTraceEnd": 7373,
+                  "observedTraceEndTs": 415473363,
+                  "observedLoad": 5061,
+                  "observedLoadTs": 413162151,
+                  "observedDomContentLoaded": 3275,
+                  "observedDomContentLoadedTs": 411375721,
+                  "observedCumulativeLayoutShift": 0.01730382919311524,
+                  "observedCumulativeLayoutShiftMainFrame": 0.01730382919311524,
+                  "observedTotalCumulativeLayoutShift": 0.01730382919311524,
+                  "observedFirstVisualChange": 3216,
+                  "observedFirstVisualChangeTs": 411316788,
+                  "observedLastVisualChange": 7349,
+                  "observedLastVisualChangeTs": 415449788,
+                  "observedSpeedIndex": 4934,
+                  "observedSpeedIndexTs": 413034645
                 },
                 {
                   "lcpInvalidated": false
@@ -1823,23 +1830,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 76,
-                  "numScripts": 35,
+                  "numRequests": 75,
+                  "numScripts": 34,
                   "numStylesheets": 23,
                   "numFonts": 5,
-                  "numTasks": 2233,
-                  "numTasksOver10ms": 13,
-                  "numTasksOver25ms": 8,
-                  "numTasksOver50ms": 1,
+                  "numTasks": 2373,
+                  "numTasksOver10ms": 14,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 16312674.601671763,
-                  "maxRtt": 84.10400000000001,
-                  "maxServerLatency": 152.149,
-                  "totalByteWeight": 26844442,
-                  "totalTaskTime": 839.4329999999952,
-                  "mainDocumentTransferSize": 24166
+                  "throughput": 14237052.197944693,
+                  "maxRtt": 100.12299999999999,
+                  "maxServerLatency": 183.54500000000002,
+                  "totalByteWeight": 30007721,
+                  "totalTaskTime": 861.0439999999965,
+                  "mainDocumentTransferSize": 24094
                 }
               ]
             }
@@ -1862,7 +1869,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie.fr",
-        "size": 1345.82,
+        "size": 1346.643,
         "nodes": 703,
         "requests": 59,
         "grade": "D",
@@ -1870,7 +1877,7 @@
         "ges": 1.98,
         "water": 2.97,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-19 01:45:43.636657",
+        "date": "2025-01-26 01:42:38.857253",
         "page_type": null
       }
     ],
@@ -1886,7 +1893,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.45,
+      "lighthouse_performance": 0.47,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.99,
       "lighthouse_accessibilityGrade": "A",
@@ -2267,6 +2274,13 @@
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
+        "id": "cert_trust_wildcard",
+        "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "trust is via wildcard"
+      },
+      {
         "id": "cert_chain_of_trust",
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
@@ -2285,7 +2299,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "OK",
-        "finding": "73 >= 30 days"
+        "finding": "66 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2439,14 +2453,14 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "1737251361"
+        "finding": "1737855967"
       },
       {
         "id": "HSTS_time",
@@ -3016,7 +3030,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "64"
+        "finding": "62"
       }
     ],
     "thirdparties": {
@@ -3467,7 +3481,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie-tourisme.fr/",
         "finalUrl": "https://www.yvetot-normandie-tourisme.fr/",
-        "fetchTime": "2025-01-19T01:48:33.022Z",
+        "fetchTime": "2025-01-26T01:45:14.793Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -3478,7 +3492,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.35
+            "score": 0.37
           },
           "accessibility": {
             "title": "Accessibility",
@@ -3530,53 +3544,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 34328,
+            "numericValue": 33173,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6548,
-                  "firstMeaningfulPaint": 6548,
-                  "largestContentfulPaint": 54959,
-                  "interactive": 34328,
-                  "speedIndex": 25362,
-                  "totalBlockingTime": 387,
-                  "maxPotentialFID": 262,
+                  "firstContentfulPaint": 5047,
+                  "firstMeaningfulPaint": 5797,
+                  "largestContentfulPaint": 55871,
+                  "interactive": 33173,
+                  "speedIndex": 22221,
+                  "totalBlockingTime": 372,
+                  "maxPotentialFID": 243,
                   "cumulativeLayoutShift": 0.06170648193359375,
                   "cumulativeLayoutShiftMainFrame": 0.06170648193359375,
                   "totalCumulativeLayoutShift": 0.06170648193359375,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 352314727,
+                  "observedTimeOriginTs": 346023954,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 352314727,
-                  "observedFirstPaint": 1096,
-                  "observedFirstPaintTs": 353410827,
-                  "observedFirstContentfulPaint": 1096,
-                  "observedFirstContentfulPaintTs": 353410827,
-                  "observedFirstContentfulPaintAllFrames": 1096,
-                  "observedFirstContentfulPaintAllFramesTs": 353410827,
-                  "observedFirstMeaningfulPaint": 1096,
-                  "observedFirstMeaningfulPaintTs": 353410827,
-                  "observedLargestContentfulPaint": 1675,
-                  "observedLargestContentfulPaintTs": 353989414,
-                  "observedLargestContentfulPaintAllFrames": 1675,
-                  "observedLargestContentfulPaintAllFramesTs": 353989414,
-                  "observedTraceEnd": 4242,
-                  "observedTraceEndTs": 356557121,
-                  "observedLoad": 1828,
-                  "observedLoadTs": 354142374,
-                  "observedDomContentLoaded": 1420,
-                  "observedDomContentLoadedTs": 353735221,
+                  "observedNavigationStartTs": 346023954,
+                  "observedFirstPaint": 1068,
+                  "observedFirstPaintTs": 347092081,
+                  "observedFirstContentfulPaint": 1068,
+                  "observedFirstContentfulPaintTs": 347092081,
+                  "observedFirstContentfulPaintAllFrames": 1068,
+                  "observedFirstContentfulPaintAllFramesTs": 347092081,
+                  "observedFirstMeaningfulPaint": 1123,
+                  "observedFirstMeaningfulPaintTs": 347147235,
+                  "observedLargestContentfulPaint": 1814,
+                  "observedLargestContentfulPaintTs": 347837799,
+                  "observedLargestContentfulPaintAllFrames": 1814,
+                  "observedLargestContentfulPaintAllFramesTs": 347837799,
+                  "observedTraceEnd": 4284,
+                  "observedTraceEndTs": 350307598,
+                  "observedLoad": 1862,
+                  "observedLoadTs": 347886131,
+                  "observedDomContentLoaded": 1460,
+                  "observedDomContentLoadedTs": 347484356,
                   "observedCumulativeLayoutShift": 0.06170648193359375,
                   "observedCumulativeLayoutShiftMainFrame": 0.06170648193359375,
                   "observedTotalCumulativeLayoutShift": 0.06170648193359375,
-                  "observedFirstVisualChange": 1104,
-                  "observedFirstVisualChangeTs": 353418727,
-                  "observedLastVisualChange": 2887,
-                  "observedLastVisualChangeTs": 355201727,
-                  "observedSpeedIndex": 1930,
-                  "observedSpeedIndexTs": 354245163
+                  "observedFirstVisualChange": 1078,
+                  "observedFirstVisualChangeTs": 347101954,
+                  "observedLastVisualChange": 2945,
+                  "observedLastVisualChangeTs": 348968954,
+                  "observedSpeedIndex": 1993,
+                  "observedSpeedIndexTs": 348016745
                 },
                 {
                   "lcpInvalidated": false
@@ -3598,19 +3612,19 @@
                   "numScripts": 72,
                   "numStylesheets": 31,
                   "numFonts": 7,
-                  "numTasks": 2727,
-                  "numTasksOver10ms": 22,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
+                  "numTasks": 2774,
+                  "numTasksOver10ms": 20,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 116554506.4307827,
-                  "maxRtt": 96.04,
-                  "maxServerLatency": 138.304,
-                  "totalByteWeight": 11129289,
-                  "totalTaskTime": 923.010000000005,
-                  "mainDocumentTransferSize": 48443
+                  "throughput": 103698619.99653774,
+                  "maxRtt": 100.15599999999999,
+                  "maxServerLatency": 94.972,
+                  "totalByteWeight": 10822314,
+                  "totalTaskTime": 898.3179999999994,
+                  "mainDocumentTransferSize": 48703
                 }
               ]
             }
@@ -3632,15 +3646,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie-tourisme.fr",
-        "size": 11608.942,
-        "nodes": 937,
-        "requests": 159,
+        "size": 11652.838,
+        "nodes": 935,
+        "requests": 173,
         "grade": "F",
-        "score": 22,
-        "ges": 2.56,
-        "water": 3.84,
+        "score": 21,
+        "ges": 2.58,
+        "water": 3.87,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-19 01:45:38.184508",
+        "date": "2025-01-26 01:42:27.847156",
         "page_type": "website"
       }
     ],
@@ -3656,7 +3670,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.35,
+      "lighthouse_performance": 0.37,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.89,
       "lighthouse_accessibilityGrade": "A",
