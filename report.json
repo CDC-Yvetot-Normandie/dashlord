@@ -208,7 +208,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -348,7 +348,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "OK",
-        "finding": "42 >= 30 days"
+        "finding": "35 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -509,7 +509,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739670619"
+        "finding": "1740275467"
       },
       {
         "id": "HSTS_time",
@@ -1121,7 +1121,7 @@
         "ip": "www.yvetot-normandie.fr/54.36.91.62",
         "port": "443",
         "severity": "INFO",
-        "finding": "68"
+        "finding": "108"
       }
     ],
     "thirdparties": {
@@ -1200,7 +1200,7 @@
           "name": "Blocksy",
           "description": "Blocksy is a modern and lightweight WordPress theme designed for a variety of websites, including blogs, portfolios, ecommerce stores, and business websites.",
           "confidence": 100,
-          "version": "2.0.83",
+          "version": "2.0.87",
           "icon": "Blocksy.svg",
           "website": "https://creativethemes.com/blocksy",
           "cpe": null,
@@ -1258,7 +1258,7 @@
           "name": "Stackable",
           "description": "Stackable is a plugin for WordPress that offers a collection of blocks, templates, and other design tools to help users create custom, professional-looking websites.",
           "confidence": 100,
-          "version": "3.13.11",
+          "version": "3.14.1",
           "icon": "Stackable.svg",
           "website": "https://wpstackable.com",
           "cpe": null,
@@ -1281,7 +1281,7 @@
           "name": "Contact Form 7",
           "description": "Contact Form 7 is an WordPress plugin which can manage multiple contact forms. The form supports Ajax-powered submitting, CAPTCHA, Akismet spam filtering.",
           "confidence": 100,
-          "version": "6.0.2",
+          "version": "6.0.3",
           "icon": "Contact Form 7.png",
           "website": "https://contactform7.com",
           "cpe": null,
@@ -1322,7 +1322,7 @@
           "name": "Complianz",
           "description": "Complianz is a GDPR/CCPA Cookie Consent plugin that supports GDPR, DSGVO, CCPA and PIPEDA with a conditional Cookie Notice and customized Cookie Policy based on the results of the built-in Cookie Scan.",
           "confidence": 100,
-          "version": "7.2.0",
+          "version": "7.3.0",
           "icon": "Complianz.png",
           "website": "https://complianz.io",
           "cpe": null,
@@ -1703,7 +1703,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie.fr/",
         "finalUrl": "https://www.yvetot-normandie.fr/",
-        "fetchTime": "2025-02-16T01:49:28.123Z",
+        "fetchTime": "2025-02-23T01:49:24.459Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1714,7 +1714,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.46
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1766,53 +1766,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 12463,
+            "numericValue": 13575,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4712,
-                  "firstMeaningfulPaint": 4712,
-                  "largestContentfulPaint": 9574,
-                  "interactive": 12463,
-                  "speedIndex": 9500,
-                  "totalBlockingTime": 236,
-                  "maxPotentialFID": 210,
-                  "cumulativeLayoutShift": 0.017317323472764757,
+                  "firstContentfulPaint": 5091,
+                  "firstMeaningfulPaint": 5091,
+                  "largestContentfulPaint": 9831,
+                  "interactive": 13575,
+                  "speedIndex": 10265,
+                  "totalBlockingTime": 149,
+                  "maxPotentialFID": 252,
+                  "cumulativeLayoutShift": 0.01740220421221521,
                   "cumulativeLayoutShiftMainFrame": 0.017317323472764757,
                   "totalCumulativeLayoutShift": 0.017317323472764757,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 233254867,
+                  "observedTimeOriginTs": 309327039,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 233254867,
-                  "observedFirstPaint": 2579,
-                  "observedFirstPaintTs": 235833438,
-                  "observedFirstContentfulPaint": 2579,
-                  "observedFirstContentfulPaintTs": 235833438,
-                  "observedFirstContentfulPaintAllFrames": 2579,
-                  "observedFirstContentfulPaintAllFramesTs": 235833438,
-                  "observedFirstMeaningfulPaint": 2579,
-                  "observedFirstMeaningfulPaintTs": 235833438,
-                  "observedLargestContentfulPaint": 2877,
-                  "observedLargestContentfulPaintTs": 236131785,
-                  "observedLargestContentfulPaintAllFrames": 2877,
-                  "observedLargestContentfulPaintAllFramesTs": 236131785,
-                  "observedTraceEnd": 6526,
-                  "observedTraceEndTs": 239781188,
-                  "observedLoad": 4113,
-                  "observedLoadTs": 237368229,
-                  "observedDomContentLoaded": 2644,
-                  "observedDomContentLoadedTs": 235898803,
-                  "observedCumulativeLayoutShift": 0.017317323472764757,
+                  "observedNavigationStartTs": 309327039,
+                  "observedFirstPaint": 1700,
+                  "observedFirstPaintTs": 311027084,
+                  "observedFirstContentfulPaint": 1700,
+                  "observedFirstContentfulPaintTs": 311027084,
+                  "observedFirstContentfulPaintAllFrames": 1700,
+                  "observedFirstContentfulPaintAllFramesTs": 311027084,
+                  "observedFirstMeaningfulPaint": 1700,
+                  "observedFirstMeaningfulPaintTs": 311027084,
+                  "observedLargestContentfulPaint": 2069,
+                  "observedLargestContentfulPaintTs": 311395617,
+                  "observedLargestContentfulPaintAllFrames": 2069,
+                  "observedLargestContentfulPaintAllFramesTs": 311395617,
+                  "observedTraceEnd": 6728,
+                  "observedTraceEndTs": 316055154,
+                  "observedLoad": 4254,
+                  "observedLoadTs": 313580738,
+                  "observedDomContentLoaded": 1843,
+                  "observedDomContentLoadedTs": 311169732,
+                  "observedCumulativeLayoutShift": 0.01740220421221521,
                   "observedCumulativeLayoutShiftMainFrame": 0.017317323472764757,
                   "observedTotalCumulativeLayoutShift": 0.017317323472764757,
-                  "observedFirstVisualChange": 2585,
-                  "observedFirstVisualChangeTs": 235839867,
-                  "observedLastVisualChange": 6485,
-                  "observedLastVisualChangeTs": 239739867,
-                  "observedSpeedIndex": 4308,
-                  "observedSpeedIndexTs": 237563164
+                  "observedFirstVisualChange": 1710,
+                  "observedFirstVisualChangeTs": 311037039,
+                  "observedLastVisualChange": 6710,
+                  "observedLastVisualChangeTs": 316037039,
+                  "observedSpeedIndex": 4197,
+                  "observedSpeedIndexTs": 313524125
                 },
                 {
                   "lcpInvalidated": false
@@ -1830,23 +1830,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 77,
-                  "numScripts": 34,
-                  "numStylesheets": 23,
+                  "numRequests": 80,
+                  "numScripts": 36,
+                  "numStylesheets": 24,
                   "numFonts": 6,
-                  "numTasks": 2260,
-                  "numTasksOver10ms": 15,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 2,
+                  "numTasks": 2975,
+                  "numTasksOver10ms": 14,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 15245920.842674369,
-                  "maxRtt": 84.627,
-                  "maxServerLatency": 149.07999999999998,
-                  "totalByteWeight": 26875474,
-                  "totalTaskTime": 842.9809999999966,
-                  "mainDocumentTransferSize": 24910
+                  "throughput": 9828405.970019905,
+                  "maxRtt": 150.12500000000003,
+                  "maxServerLatency": 277.03,
+                  "totalByteWeight": 30061855,
+                  "totalTaskTime": 850.8390000000023,
+                  "mainDocumentTransferSize": 27018
                 }
               ]
             }
@@ -1869,15 +1869,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie.fr",
-        "size": 1359.595,
-        "nodes": 719,
-        "requests": 59,
+        "size": 1417.855,
+        "nodes": 723,
+        "requests": 61,
         "grade": "D",
-        "score": 51,
-        "ges": 1.98,
-        "water": 2.97,
+        "score": 50,
+        "ges": 2,
+        "water": 3,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:48:44.910262",
+        "date": "2025-02-23 01:48:45.597210",
         "page_type": null
       }
     ],
@@ -1893,7 +1893,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.45,
+      "lighthouse_performance": 0.46,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.99,
       "lighthouse_accessibilityGrade": "A",
@@ -2299,7 +2299,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "OK",
-        "finding": "45 >= 30 days"
+        "finding": "38 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2453,14 +2453,14 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739670630"
+        "finding": "1740275479"
       },
       {
         "id": "HSTS_time",
@@ -3030,7 +3030,7 @@
         "ip": "www.yvetot-normandie-tourisme.fr/185.177.62.138",
         "port": "443",
         "severity": "INFO",
-        "finding": "99"
+        "finding": "114"
       }
     ],
     "thirdparties": {
@@ -3481,7 +3481,7 @@
       {
         "requestedUrl": "https://www.yvetot-normandie-tourisme.fr/",
         "finalUrl": "https://www.yvetot-normandie-tourisme.fr/",
-        "fetchTime": "2025-02-16T01:49:13.969Z",
+        "fetchTime": "2025-02-23T01:49:33.169Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -3492,7 +3492,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.4
+            "score": 0.39
           },
           "accessibility": {
             "title": "Accessibility",
@@ -3544,53 +3544,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 36719,
+            "numericValue": 29679,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6415,
-                  "firstMeaningfulPaint": 6415,
-                  "largestContentfulPaint": 66040,
-                  "interactive": 36719,
-                  "speedIndex": 29788,
-                  "totalBlockingTime": 243,
-                  "maxPotentialFID": 240,
-                  "cumulativeLayoutShift": 0.08614286380343966,
-                  "cumulativeLayoutShiftMainFrame": 0.08614286380343966,
-                  "totalCumulativeLayoutShift": 0.08614286380343966,
+                  "firstContentfulPaint": 5922,
+                  "firstMeaningfulPaint": 5922,
+                  "largestContentfulPaint": 51685,
+                  "interactive": 29679,
+                  "speedIndex": 20968,
+                  "totalBlockingTime": 298,
+                  "maxPotentialFID": 215,
+                  "cumulativeLayoutShift": 0.06788671027289496,
+                  "cumulativeLayoutShiftMainFrame": 0.06788671027289496,
+                  "totalCumulativeLayoutShift": 0.08611297014024522,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 202403500,
+                  "observedTimeOriginTs": 314035873,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 202403500,
-                  "observedFirstPaint": 1227,
-                  "observedFirstPaintTs": 203630075,
-                  "observedFirstContentfulPaint": 1227,
-                  "observedFirstContentfulPaintTs": 203630075,
-                  "observedFirstContentfulPaintAllFrames": 1227,
-                  "observedFirstContentfulPaintAllFramesTs": 203630075,
-                  "observedFirstMeaningfulPaint": 1278,
-                  "observedFirstMeaningfulPaintTs": 203681813,
-                  "observedLargestContentfulPaint": 2127,
-                  "observedLargestContentfulPaintTs": 204530280,
-                  "observedLargestContentfulPaintAllFrames": 2127,
-                  "observedLargestContentfulPaintAllFramesTs": 204530280,
-                  "observedTraceEnd": 4560,
-                  "observedTraceEndTs": 206963859,
-                  "observedLoad": 2093,
-                  "observedLoadTs": 204496496,
-                  "observedDomContentLoaded": 1830,
-                  "observedDomContentLoadedTs": 204233357,
-                  "observedCumulativeLayoutShift": 0.08614286380343966,
-                  "observedCumulativeLayoutShiftMainFrame": 0.08614286380343966,
-                  "observedTotalCumulativeLayoutShift": 0.08614286380343966,
-                  "observedFirstVisualChange": 1238,
-                  "observedFirstVisualChangeTs": 203641500,
-                  "observedLastVisualChange": 3188,
-                  "observedLastVisualChangeTs": 205591500,
-                  "observedSpeedIndex": 2249,
-                  "observedSpeedIndexTs": 204652147
+                  "observedNavigationStartTs": 314035873,
+                  "observedFirstPaint": 1650,
+                  "observedFirstPaintTs": 315685932,
+                  "observedFirstContentfulPaint": 1650,
+                  "observedFirstContentfulPaintTs": 315685932,
+                  "observedFirstContentfulPaintAllFrames": 1650,
+                  "observedFirstContentfulPaintAllFramesTs": 315685932,
+                  "observedFirstMeaningfulPaint": 1682,
+                  "observedFirstMeaningfulPaintTs": 315717817,
+                  "observedLargestContentfulPaint": 2930,
+                  "observedLargestContentfulPaintTs": 316965557,
+                  "observedLargestContentfulPaintAllFrames": 2930,
+                  "observedLargestContentfulPaintAllFramesTs": 316965557,
+                  "observedTraceEnd": 5556,
+                  "observedTraceEndTs": 319592330,
+                  "observedLoad": 3062,
+                  "observedLoadTs": 317097508,
+                  "observedDomContentLoaded": 2808,
+                  "observedDomContentLoadedTs": 316843375,
+                  "observedCumulativeLayoutShift": 0.06788671027289496,
+                  "observedCumulativeLayoutShiftMainFrame": 0.06788671027289496,
+                  "observedTotalCumulativeLayoutShift": 0.08611297014024522,
+                  "observedFirstVisualChange": 1651,
+                  "observedFirstVisualChangeTs": 315686873,
+                  "observedLastVisualChange": 4134,
+                  "observedLastVisualChangeTs": 318169873,
+                  "observedSpeedIndex": 3043,
+                  "observedSpeedIndexTs": 317078650
                 },
                 {
                   "lcpInvalidated": false
@@ -3608,23 +3608,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 159,
+                  "numRequests": 158,
                   "numScripts": 62,
                   "numStylesheets": 30,
-                  "numFonts": 4,
-                  "numTasks": 2935,
-                  "numTasksOver10ms": 18,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 2,
+                  "numFonts": 5,
+                  "numTasks": 3052,
+                  "numTasksOver10ms": 19,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 95592217.83093582,
-                  "maxRtt": 118.134,
-                  "maxServerLatency": 63.754,
-                  "totalByteWeight": 13146706,
-                  "totalTaskTime": 871.1380000000017,
-                  "mainDocumentTransferSize": 51496
+                  "throughput": 66388632.79918371,
+                  "maxRtt": 165.199,
+                  "maxServerLatency": 92.362,
+                  "totalByteWeight": 10435200,
+                  "totalTaskTime": 907.0890000000062,
+                  "mainDocumentTransferSize": 52118
                 }
               ]
             }
@@ -3646,15 +3646,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yvetot-normandie-tourisme.fr",
-        "size": 14355.877,
-        "nodes": 950,
-        "requests": 170,
+        "size": 11592.915,
+        "nodes": 944,
+        "requests": 155,
         "grade": "F",
-        "score": 21,
-        "ges": 2.58,
-        "water": 3.87,
+        "score": 22,
+        "ges": 2.56,
+        "water": 3.84,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:48:37.470313",
+        "date": "2025-02-23 01:48:44.930431",
         "page_type": "website"
       }
     ],
@@ -3670,7 +3670,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.4,
+      "lighthouse_performance": 0.39,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.89,
       "lighthouse_accessibilityGrade": "A",
