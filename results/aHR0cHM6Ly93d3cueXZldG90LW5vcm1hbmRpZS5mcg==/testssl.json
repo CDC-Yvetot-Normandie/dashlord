@@ -199,7 +199,7 @@
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (28)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-03-30 05:17"
           }
 ,         {
@@ -500,7 +500,7 @@
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740275467"
+              "finding"      : "1740880322"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.yvetot-normandie.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "108"
+              "finding"      : "71"
           }
 ]
